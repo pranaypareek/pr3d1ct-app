@@ -1,14 +1,15 @@
 {
-    "name": "housingHack",
-    "version": "0.0.0",
-    "description": "housingHack",
-    "main": "server.js",
-    "dependencies": {
-        "express": "~4.6.1",
-        "mongoose": "~3.8.13",
-        "morgan": "~1.1.1",
-        "body-parser": "~1.4.3",
-        "method-override": "~2.1.1",
-        "googleplaces": "*"
-    }
+  "name": "housingHack",
+  "version": "0.0.0",
+  "description": "housingHack",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.4.3",
+    "express": "~4.6.1",
+    "googleplaces": "*",
+    "lodash": "^3.7.0",
+    "method-override": "~2.1.1",
+    "mongoose": "~3.8.13",
+    "morgan": "~1.1.1"
+  }
 }
