@@ -28,13 +28,13 @@ function Search(req, res) {
         console.log(util.inspect(response));
         var latitude = response.results[0].geometry.location.lat;
         var longitude = response.results[0].geometry.location.lng;
-        var radarQuery = {
+        var nearbyQuery = {
             location: [latitude, longitude],
             types: types,
             radius: 1000
         };
-        console.log('radarQuery', radarQuery);
-        googlePlaces.radarSearch(radarQuery, function(err, data) {
+        console.log('nearbyQuery', nearbyQuery);
+        googlePlaces.nearbySearch(nearbyQuery, function(err, data) {
             if (err) throw err;
             console.log(util.inspect(data), {
                 depth: 6

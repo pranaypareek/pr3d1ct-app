@@ -19,12 +19,12 @@ angular.module('pr3d1ctController', [])
                 var temp = {
                   geometryList: {
                     idKey: obj.id,
+                    icon: obj.icon,
                     latitude: obj.geometry.location.lat,
                     longitude: obj.geometry.location.lng
                   },
-
                   place_id: obj.place_id
-                }
+                };
                 $scope.placesGeometryList.push(temp.geometryList);
             });
 
@@ -36,10 +36,10 @@ angular.module('pr3d1ctController', [])
             $scope.coords = {
               latitude: lat,
               longitude: lng
-            }
+            };
 
             $scope.map = { center: { latitude: lat, longitude: lng }, zoom: 15 };
             $scope.loading = false;
         });
-      }
+      };
 }]);
