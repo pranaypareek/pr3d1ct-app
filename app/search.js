@@ -39,6 +39,7 @@ function Search(req, res) {
             console.log(util.inspect(data), {
                 depth: 6
             });
+            res.send(200, data);
         });
     });
 }
