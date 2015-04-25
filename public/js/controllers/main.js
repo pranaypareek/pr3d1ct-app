@@ -8,9 +8,20 @@ angular.module('pr3d1ctController', [])
     // GET =====================================================================
     // when landing on the page, get all todos and show them
     // use the service to get all the todos
+    Predictors.location()
+        .success(function (location) {
+          $scope.map = { 
+            center: 
+              { 
+                latitude: location.latitude,
+                longitude: location.longitude 
+              }, 
+              zoom: 15 
+          };
+        });
     $scope.searchMap = function() {
       Predictors.search()
-        .success(function(data) {
+        .success(function (data) {
 
             $scope.placesGeometryList = [];
 
