@@ -1,0 +1,1133 @@
+{
+  "took": 33,
+  "timed_out": false,
+  "_shards": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0
+  },
+  "hits": {
+    "total": 14,
+    "max_score": -0.10363812,
+    "infrastructure": [{
+      "Metro": 1
+    }, {
+      "ITArea": 0
+    }, {
+      "Parks": 15
+    }, {
+      "Airport": 30
+    }, {
+      "CityCenter": 12
+    }]
+    "hits": [{
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "202116_true",
+      "_score": -0.10363812,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "Defence Colony"
+        ],
+        "bathroom_count": 1,
+        "seo_address_tags": [
+
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/98a01ebcc56f5fe630d385db552a297a/version.jpg",
+        "is_gated_community": true,
+        "formatted_price": "6.5 Cr",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "5 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "3rd Main Road, Near Defence Colony Park, Defence Colony, Indira Nagar 2nd Stage",
+        "region_name": "Central Bangalore",
+        "description": null,
+        "share_url": "https://housing.com/in/bangalore/buy/202116-5-bhk-apartment-in-indira-nagar-for-rs-65000000",
+        "lifestyle_rating": 6.6,
+        "has_swimming_pool": false,
+        "longitude": 77.644264,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "No Brokerage 5 BHK Property",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 6.5E7,
+        "built_up_area": 5500.0,
+        "freshness_index": 100,
+        "apartment_type_id": "6",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1429765885,
+        "latitude": 12.976002,
+        "number_of_lifts": 1,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "1",
+        "thumb_url": "01c16c28/98a01ebcc56f5fe630d385db552a297a/thumb.jpg",
+        "image_count": 30,
+        "center_point": "12.971925,77.641175",
+        "id": 202116,
+        "city_id": "38",
+        "title": "5 BHK Apartment in 3rd Main Road, Near Defence Colony Park, Defence Colony, Indira Nagar 2nd Stage, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 0,
+        "date_added": "2015-04-23T10:41:25Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.976002,77.644264",
+        "has_servant_room": true,
+        "floor_number": 4,
+        "age_of_property": "2015-4-21",
+        "thumb_id": "01c16c28/98a01ebcc56f5fe630d385db552a297a",
+        "main_entrance_facing": "East",
+        "canonical_url": "https://housing.com/in/bangalore/buy/202116-5-bhk-apartment-in-indira-nagar-for-rs-65000000",
+        "has_gym": false,
+        "seo_tags": [
+
+        ],
+        "versions": [
+          1429929000
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "None",
+        "per_square_feet_rate": 11818.0,
+        "floor_count": 4,
+        "min_version": 1429929000,
+        "bedroom_count": 5,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 22
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "198831_true",
+      "_score": -0.29353473,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "Eshwara Layout"
+        ],
+        "bathroom_count": 2,
+        "seo_address_tags": [
+
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/df382ff10e4248c4f663915a1d684e8f/version.jpg",
+        "is_gated_community": false,
+        "formatted_price": "75.0 Lacs",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "2 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "15th Cross Road, Near City Nest Sports Acitivity Centre, Eshwara Layout",
+        "region_name": "Central Bangalore",
+        "description": null,
+        "share_url": "https://housing.com/in/bangalore/buy/198831-2-bhk-apartment-in-indira-nagar-for-rs-7500000",
+        "lifestyle_rating": 6.0,
+        "has_swimming_pool": false,
+        "longitude": 77.634191,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "No Brokerage Double Bedroom Property",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 7500000.0,
+        "built_up_area": 1125.0,
+        "freshness_index": 100,
+        "apartment_type_id": "3",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1429519779,
+        "latitude": 12.974608,
+        "number_of_lifts": 1,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "1",
+        "thumb_url": "01c16c28/df382ff10e4248c4f663915a1d684e8f/thumb.jpg",
+        "image_count": 12,
+        "center_point": "12.971925,77.641175",
+        "id": 198831,
+        "city_id": "38",
+        "title": "2 BHK Apartment in 15th Cross Road, Near City Nest Sports Acitivity Centre, Eshwara Layout, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 0,
+        "date_added": "2015-04-20T14:19:39Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.974608,77.634191",
+        "has_servant_room": false,
+        "floor_number": 3,
+        "age_of_property": "2003-4-17",
+        "thumb_id": "01c16c28/df382ff10e4248c4f663915a1d684e8f",
+        "main_entrance_facing": "West",
+        "canonical_url": "https://housing.com/in/bangalore/buy/198831-2-bhk-apartment-in-indira-nagar-for-rs-7500000",
+        "has_gym": false,
+        "seo_tags": [
+
+        ],
+        "versions": [
+          1429525800
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "None",
+        "per_square_feet_rate": 6666.0,
+        "floor_count": 3,
+        "min_version": 1429525800,
+        "bedroom_count": 2,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 0
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "61742_true",
+      "_score": -2.2930672,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "H Colony"
+        ],
+        "bathroom_count": 3,
+        "seo_address_tags": [
+
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/971b67fca82d6f4adfd586096b50dd9e/version.jpg",
+        "is_gated_community": true,
+        "formatted_price": "85.0 Lacs",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "2 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "Third Main Road,, Near Alankrita Management Service Pvt.ltd.,, 'h' Colony, First Stage",
+        "region_name": "Central Bangalore",
+        "description": "Spacious and luxurious owner property at urgent sale on Rs.85.0 Lacs in Bangalore near Indira Nagar having 2 bathroom, two bedrooms, basic security ",
+        "share_url": "https://housing.com/in/bangalore/buy/61742-2-bhk-apartment-in-indira-nagar-for-rs-8500000",
+        "lifestyle_rating": 6.3,
+        "has_swimming_pool": false,
+        "longitude": 77.643333,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "No Brokerage Double Bedroom Property",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 8500000.0,
+        "built_up_area": 1100.0,
+        "freshness_index": 99,
+        "apartment_type_id": "3",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1426928385,
+        "latitude": 12.981535,
+        "number_of_lifts": 1,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "2",
+        "thumb_url": "01c16c28/971b67fca82d6f4adfd586096b50dd9e/thumb.jpg",
+        "image_count": 13,
+        "center_point": "12.971925,77.641175",
+        "id": 61742,
+        "city_id": "38",
+        "title": "2 BHK Apartment in Third Main Road,, Near Alankrita Management Service Pvt.ltd.,, 'h' Colony, First Stage, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 0,
+        "date_added": "2015-03-21T14:29:45Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.981535,77.643333",
+        "has_servant_room": false,
+        "floor_number": 1,
+        "age_of_property": "2013-5-22",
+        "thumb_id": "01c16c28/971b67fca82d6f4adfd586096b50dd9e",
+        "main_entrance_facing": "East",
+        "canonical_url": "https://housing.com/in/bangalore/buy/61742-2-bhk-apartment-in-indira-nagar-for-rs-8500000",
+        "has_gym": false,
+        "seo_tags": [
+
+        ],
+        "versions": [
+          1429714800
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "Partial",
+        "per_square_feet_rate": 7727.0,
+        "floor_count": 6,
+        "min_version": 1429714800,
+        "bedroom_count": 2,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 506
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "170764_true",
+      "_score": -2.543845,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "Binnamangala"
+        ],
+        "bathroom_count": 4,
+        "seo_address_tags": [
+
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/93eea4ab418228bb4bd0766a0e91410c/version.jpg",
+        "is_gated_community": false,
+        "formatted_price": "4.0 Cr",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "4 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "Old Mdras Road, Near Indiranagar Police Station, Hoysala Nagar",
+        "region_name": "Central Bangalore",
+        "description": "Spacious and premium flat without brokerage for sale on Rs.4.0 Cr near Indira Nagar,Bengaluru with adequate water supply, basic security, partial power backup ",
+        "share_url": "https://housing.com/in/bangalore/buy/170764-4-bhk-apartment-in-indira-nagar-for-rs-39999999",
+        "lifestyle_rating": 7.0,
+        "has_swimming_pool": true,
+        "longitude": 77.639573,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "4 BHK Flat Without Brokerage",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 3.9999999E7,
+        "built_up_area": 3320.0,
+        "freshness_index": 100,
+        "apartment_type_id": "5",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1426603377,
+        "latitude": 12.983542,
+        "number_of_lifts": 1,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "2",
+        "thumb_url": "01c16c28/93eea4ab418228bb4bd0766a0e91410c/thumb.jpg",
+        "image_count": 26,
+        "center_point": "12.971925,77.641175",
+        "id": 170764,
+        "city_id": "38",
+        "title": "4 BHK Apartment in Old Mdras Road, Near Indiranagar Police Station, Hoysala Nagar, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 2,
+        "date_added": "2015-03-17T20:12:57Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.983542,77.639573",
+        "has_servant_room": true,
+        "floor_number": 2,
+        "age_of_property": "2005-3-14",
+        "thumb_id": "01c16c28/93eea4ab418228bb4bd0766a0e91410c",
+        "main_entrance_facing": "South-West",
+        "canonical_url": "https://housing.com/in/bangalore/buy/170764-4-bhk-apartment-in-indira-nagar-for-rs-39999999",
+        "has_gym": true,
+        "seo_tags": [
+
+        ],
+        "versions": [
+          1428921000
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "Partial",
+        "per_square_feet_rate": 12048.0,
+        "floor_count": 3,
+        "min_version": 1428921000,
+        "bedroom_count": 4,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 0
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "144620_true",
+      "_score": -4.6986136,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "HAL 2nd Stage"
+        ],
+        "bathroom_count": 2,
+        "seo_address_tags": [
+          "Bangalore",
+          "Indira Nagar",
+          "HAL 2nd Stage"
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/41e7c391a40373a1cacabca4411f51f7/version.jpg",
+        "is_gated_community": false,
+        "formatted_price": "92.0 Lacs",
+        "owner_type_id": "1",
+        "under_construction": false,
+        "apartment_type": "3 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "13th A Main Road, Near Hotel Empire, Indiranagar 2nd Stage",
+        "region_name": "Central Bangalore",
+        "description": "Rs.92.0 Lacs and spacious apartment at Indira Nagar,Bengaluru with area of 1500 sqft and premium corridor ",
+        "share_url": "https://housing.com/in/bangalore/buy/144620-3-bhk-apartment-in-indira-nagar-for-rs-9200000",
+        "lifestyle_rating": 6.0,
+        "has_swimming_pool": false,
+        "longitude": 77.646727,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "Triple Bedroom Flat",
+        "is_society_formed": null,
+        "contact_person_type": "Agent",
+        "water_supply_type": "Municipal Water",
+        "price": 9200000.0,
+        "built_up_area": 1500.0,
+        "freshness_index": 100,
+        "apartment_type_id": "4",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1423810797,
+        "latitude": 12.968425,
+        "number_of_lifts": 0,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "2",
+        "thumb_url": "01c16c28/41e7c391a40373a1cacabca4411f51f7/thumb.jpg",
+        "image_count": 19,
+        "center_point": "12.971925,77.641175",
+        "id": 144620,
+        "city_id": "38",
+        "title": "3 BHK Apartment in 13th A Main Road, Near Hotel Empire, Indiranagar 2nd Stage, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 2,
+        "date_added": "2015-02-13T12:29:57Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.968425,77.646727",
+        "has_servant_room": false,
+        "floor_number": 1,
+        "age_of_property": "2003-2-12",
+        "document_id": "144620",
+        "thumb_id": "01c16c28/41e7c391a40373a1cacabca4411f51f7",
+        "main_entrance_facing": "North",
+        "canonical_url": "https://housing.com/in/bangalore/buy/144620-3-bhk-apartment-in-indira-nagar-for-rs-9200000",
+        "has_gym": false,
+        "seo_tags": [
+          "flat",
+          "3bhk",
+          "bangalore",
+          "indira_nagar",
+          "hal_2nd_stage"
+        ],
+        "versions": [
+          1426483800
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "Partial",
+        "per_square_feet_rate": 6133.0,
+        "floor_count": 3,
+        "min_version": 1426483800,
+        "bedroom_count": 3,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 0
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "140264_true",
+      "_score": -5.1514907,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "Doopanahalli"
+        ],
+        "bathroom_count": 2,
+        "seo_address_tags": [
+          "Bangalore",
+          "Indira Nagar",
+          "Doopanahalli"
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/2df474ab0c3028534dd2f181c45557b0/version.jpg",
+        "is_gated_community": false,
+        "formatted_price": "95.0 Lacs",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "2 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "8th Cross Road, 13th Main Road, Near Sony World, Hal 2nd Stage",
+        "region_name": "Central Bangalore",
+        "description": "1100sqft area without broker apartment at immediate sale at Rs.95.0 Lacs in Bengaluru near Indira Nagar having basic security and 2 parking ",
+        "share_url": "https://housing.com/in/bangalore/buy/140264-2-bhk-apartment-in-indira-nagar-for-rs-9500000",
+        "lifestyle_rating": 7.7,
+        "has_swimming_pool": false,
+        "longitude": 77.638802,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "Double Bedroom Property Without Brokers",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 9500000.0,
+        "built_up_area": 1100.0,
+        "freshness_index": 100,
+        "apartment_type_id": "3",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1423223868,
+        "latitude": 12.967409,
+        "number_of_lifts": 1,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "3",
+        "thumb_url": "01c16c28/2df474ab0c3028534dd2f181c45557b0/thumb.jpg",
+        "image_count": 12,
+        "center_point": "12.971925,77.641175",
+        "id": 140264,
+        "city_id": "38",
+        "title": "2 BHK Apartment in 8th Cross Road, 13th Main Road, Near Sony World, Hal 2nd Stage, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 2,
+        "date_added": "2015-02-06T17:27:48Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.967409,77.638802",
+        "has_servant_room": false,
+        "floor_number": 1,
+        "age_of_property": "2014-2-4",
+        "document_id": "140264",
+        "thumb_id": "01c16c28/2df474ab0c3028534dd2f181c45557b0",
+        "main_entrance_facing": "North-East",
+        "canonical_url": "https://housing.com/in/bangalore/buy/140264-2-bhk-apartment-in-indira-nagar-for-rs-9500000",
+        "has_gym": false,
+        "seo_tags": [
+          "flat",
+          "2bhk",
+          "bangalore",
+          "indira_nagar",
+          "doopanahalli"
+        ],
+        "versions": [
+          1426483800
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "Full",
+        "per_square_feet_rate": 8636.0,
+        "floor_count": 4,
+        "min_version": 1426483800,
+        "bedroom_count": 2,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 0
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "136895_true",
+      "_score": -5.5536027,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "H Colony"
+        ],
+        "bathroom_count": 3,
+        "seo_address_tags": [
+          "Bangalore",
+          "Indira Nagar",
+          "H Colony"
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/2c5200a17e4a12d02c7f95ba84954f1f/version.jpg",
+        "is_gated_community": true,
+        "formatted_price": "1.2 Cr",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "3 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "3rd Main Road, Near Pristine Public School, 1st- Stage, H Colony",
+        "region_name": "Central Bangalore",
+        "description": "Luxurious property without broker having 3 bathroom and three bedrooms in Koramangala,Bengaluru ",
+        "share_url": "https://housing.com/in/bangalore/buy/136895-3-bhk-apartment-in-indira-nagar-for-rs-12000000",
+        "lifestyle_rating": 6.2,
+        "has_swimming_pool": false,
+        "longitude": 77.64221,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "3 BHK Property Without Brokers",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 1.2E7,
+        "built_up_area": 1725.0,
+        "freshness_index": 100,
+        "apartment_type_id": "4",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1422702731,
+        "latitude": 12.981608,
+        "number_of_lifts": 1,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "3",
+        "thumb_url": "01c16c28/2c5200a17e4a12d02c7f95ba84954f1f/thumb.jpg",
+        "image_count": 22,
+        "center_point": "12.971925,77.641175",
+        "id": 136895,
+        "city_id": "38",
+        "title": "3 BHK Apartment in 3rd Main Road, Near Pristine Public School, 1st- Stage, H Colony, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 2,
+        "date_added": "2015-01-31T16:42:11Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.981608,77.64221",
+        "has_servant_room": false,
+        "floor_number": 5,
+        "age_of_property": "2015-1-28",
+        "document_id": "136895",
+        "thumb_id": "01c16c28/2c5200a17e4a12d02c7f95ba84954f1f",
+        "main_entrance_facing": "West",
+        "canonical_url": "https://housing.com/in/bangalore/buy/136895-3-bhk-apartment-in-indira-nagar-for-rs-12000000",
+        "has_gym": false,
+        "seo_tags": [
+          "flat",
+          "3bhk",
+          "withoutbrokerage",
+          "bangalore",
+          "indira_nagar",
+          "h_colony"
+        ],
+        "versions": [
+          1426483800
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "Full",
+        "per_square_feet_rate": 6956.0,
+        "floor_count": 6,
+        "min_version": 1426483800,
+        "bedroom_count": 3,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 0
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "136884_true",
+      "_score": -5.694297,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "H Colony"
+        ],
+        "bathroom_count": 3,
+        "seo_address_tags": [
+          "Bangalore",
+          "Indira Nagar",
+          "H Colony"
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/b0baafc15a3fe7c1efaae12f0b5e05ea/version.jpg",
+        "is_gated_community": true,
+        "formatted_price": "1.0 Cr",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "3 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "3rd Main Road, Near Prince Public School, 1st- Stage, H- Colony",
+        "region_name": "Central Bangalore",
+        "description": "Beautiful, three bedroom, Rs.1.0 Cr house without brokerage in Koramangala on sale with 3 bathroom ",
+        "share_url": "https://housing.com/in/bangalore/buy/136884-3-bhk-apartment-in-indira-nagar-for-rs-10000000",
+        "lifestyle_rating": 6.2,
+        "has_swimming_pool": false,
+        "longitude": 77.64258,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": false,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "3 BHK Apartment Without Brokers",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 1.0E7,
+        "built_up_area": 1650.0,
+        "freshness_index": 100,
+        "apartment_type_id": "4",
+        "security_type_id": "2",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1422520391,
+        "latitude": 12.981603,
+        "number_of_lifts": 2,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "3",
+        "thumb_url": "01c16c28/b0baafc15a3fe7c1efaae12f0b5e05ea/thumb.jpg",
+        "image_count": 24,
+        "center_point": "12.971925,77.641175",
+        "id": 136884,
+        "city_id": "38",
+        "title": "3 BHK Apartment in 3rd Main Road, Near Prince Public School, 1st- Stage, H- Colony, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 2,
+        "date_added": "2015-01-29T14:03:11Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.981603,77.64258",
+        "has_servant_room": false,
+        "floor_number": 5,
+        "age_of_property": "2015-1-28",
+        "document_id": "136884",
+        "thumb_id": "01c16c28/b0baafc15a3fe7c1efaae12f0b5e05ea",
+        "main_entrance_facing": "South-East",
+        "canonical_url": "https://housing.com/in/bangalore/buy/136884-3-bhk-apartment-in-indira-nagar-for-rs-10000000",
+        "has_gym": false,
+        "seo_tags": [
+          "flat",
+          "3bhk",
+          "withoutbrokerage",
+          "bangalore",
+          "indira_nagar",
+          "h_colony"
+        ],
+        "versions": [
+          1429938000
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "Full",
+        "per_square_feet_rate": 6060.0,
+        "floor_count": 6,
+        "min_version": 1429938000,
+        "bedroom_count": 3,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "Basic",
+        "view_count": 1221
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "1429959600_115339",
+      "_score": -9.632467,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "stage 2"
+        ],
+        "bathroom_count": 2,
+        "seo_address_tags": [
+          "Indira Nagar",
+          "Hoysala Nagar",
+          "Stage 2"
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/23fa3a00a0f95e58c65640c62aa835af/version.jpg",
+        "is_gated_community": false,
+        "formatted_price": "75.0 Lacs",
+        "owner_type_id": "2",
+        "under_construction": false,
+        "apartment_type": "1 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "9th A Main Road, Near HDFC Bank, Binnamangala, Hoysala Nagar",
+        "region_name": "Central Bangalore",
+        "description": "Spacious, luxurious, one bedroom without brokerage house in Indira Nagar,Bengaluru having double bathroom on sale of Rs.37.0 Lacs ",
+        "share_url": "https://housing.com/in/bangalore/buy/115339-1-bhk-apartment-in-indira-nagar-for-rs-7500000",
+        "lifestyle_rating": 6.3,
+        "has_swimming_pool": false,
+        "longitude": 77.637781,
+        "head": false,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": true,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "No Brokerage Single Bedroom Property",
+        "is_society_formed": null,
+        "contact_person_type": "Landlord",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 7500000.0,
+        "built_up_area": 1050.0,
+        "freshness_index": 245,
+        "apartment_type_id": "2",
+        "security_type_id": "1",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1417416523,
+        "latitude": 12.977669,
+        "number_of_lifts": 0,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "1",
+        "thumb_url": "01c16c28/23fa3a00a0f95e58c65640c62aa835af/thumb.jpg",
+        "image_count": 11,
+        "center_point": "12.971925,77.641175",
+        "id": 115339,
+        "city_id": "38",
+        "title": "1 BHK Apartment in 9th A Main Road, Near HDFC Bank, Binnamangala, Hoysala Nagar, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 2,
+        "date_added": "2014-12-01T12:18:43Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.977669,77.637781",
+        "has_servant_room": false,
+        "floor_number": 2,
+        "age_of_property": "2008-11-27",
+        "document_id": "115339",
+        "thumb_id": "01c16c28/23fa3a00a0f95e58c65640c62aa835af",
+        "main_entrance_facing": "North",
+        "canonical_url": "https://housing.com/in/bangalore/buy/115339-1-bhk-apartment-in-indira-nagar-for-rs-7500000",
+        "has_gym": false,
+        "seo_tags": [
+          "flat",
+          "1bhk",
+          "indira_nagar",
+          "hoysala_nagar",
+          "stage_2"
+        ],
+        "versions": [
+          1429950600,
+          1429952400,
+          1429954200,
+          1429956000,
+          1429957800,
+          1429959600
+        ],
+        "property_type": "Apartment",
+        "power_backup_type": "None",
+        "per_square_feet_rate": 7142.0,
+        "floor_count": 3,
+        "min_version": 1429950600,
+        "bedroom_count": 1,
+        "property_type_id": "1",
+        "locality": "Indira Nagar",
+        "security_type": "None",
+        "view_count": 2775
+      }
+    }, {
+      "_index": "buy_flats_20150316135922",
+      "_type": "buy_flat",
+      "_id": "105811_true",
+      "_score": -11.487863,
+      "_source": {
+        "display_locality": [
+          "Indira Nagar",
+          "Doopanahalli"
+        ],
+        "bathroom_count": 3,
+        "seo_address_tags": [
+          "Indira Nagar",
+          "Doopanahalli"
+        ],
+        "thumb_url_new": "https://is1-0.housingcdn.com/01c16c28/0d968ad8b2c22b3783394e1bd7926fa4/version.jpg",
+        "is_gated_community": false,
+        "formatted_price": "1.8 Cr",
+        "owner_type_id": "1",
+        "under_construction": false,
+        "apartment_type": "3 BHK",
+        "locality_url_name": "indira-nagar",
+        "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkluZGlyYSBOYWdhciIsImxhdCI6MTIuOTcxOTI1LCJsbmciOjc3LjY0MTE3NSwicmFkIjozMDAwfX0=",
+        "street_info": "11th Cross Road, Near Woodstock, Doopanahalli",
+        "region_name": "Central Bangalore",
+        "description": "3 bhk and spacious flat at Bangalore near Indira Nagar with adequate water supply, lavish passage, area of 1800sqft ",
+        "share_url": "https://housing.com/in/bangalore/buy/105811-3-bhk-independent-house-in-indira-nagar-for-rs-18000000",
+        "lifestyle_rating": 7.9,
+        "has_swimming_pool": false,
+        "longitude": 77.63758,
+        "head": true,
+        "center_point_longitude": "77.641175",
+        "is_price_negotiable": false,
+        "has_gas_pipeline": false,
+        "broker_listing_type": "false",
+        "thumb_name": ".jpg",
+        "seo_title": "3 BHK Independent House",
+        "is_society_formed": null,
+        "contact_person_type": "Agent",
+        "water_supply_type": "Bore and Municipal water",
+        "price": 1.8E7,
+        "built_up_area": 1800.0,
+        "freshness_index": 217,
+        "apartment_type_id": "4",
+        "security_type_id": "1",
+        "center_point_latitude": "12.971925",
+        "date_added_in_seconds": 1415011930,
+        "latitude": 12.96705,
+        "number_of_lifts": 0,
+        "city_name": "Bengaluru",
+        "power_backup_type_id": "1",
+        "thumb_url": "01c16c28/0d968ad8b2c22b3783394e1bd7926fa4/thumb.jpg",
+        "image_count": 17,
+        "center_point": "12.971925,77.641175",
+        "id": 105811,
+        "city_id": "38",
+        "title": "3 BHK Independent House in 11th Cross Road, Near Woodstock, Doopanahalli, Indira Nagar for sale - Bengaluru | Housing.com",
+        "parking_count": 1,
+        "date_added": "2014-11-03T16:22:10Z",
+        "city_url_name": "bangalore",
+        "coordinates": "12.96705,77.63758",
+        "has_servant_room": false,
+        "floor_number": 1,
+        "age_of_property": "1999-11-3",
+        "document_id": "105811",
+        "thumb_id": "01c16c28/0d968ad8b2c22b3783394e1bd7926fa4",
+        "main_entrance_facing": "West",
+        "canonical_url": "https://housing.com/in/bangalore/buy/105811-3-bhk-independent-house-in-indira-nagar-for-rs-18000000",
+        "has_gym": false,
+        "seo_tags": [
+          "house",
+          "3bhk",
+          "indira_nagar",
+          "doopanahalli"
+        ],
+        "versions": [
+          1429929000
+        ],
+        "property_type": "Independent House",
+        "power_backup_type": "None",
+        "per_square_feet_rate": 10000.0,
+        "floor_count": 3,
+        "min_version": 1429929000,
+        "bedroom_count": 3,
+        "property_type_id": "2",
+        "locality": "Indira Nagar",
+        "security_type": "None",
+        "view_count": 4295
+      }
+    }]
+  },
+  "aggregations": {
+    "has_servant_room_aggs": {
+      "doc_count": 14,
+      "has_servant_room_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": "F",
+          "doc_count": 12
+        }, {
+          "key": "T",
+          "doc_count": 2
+        }]
+      }
+    },
+    "parking_count_aggs": {
+      "doc_count": 14,
+      "parking_count_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 2.0,
+          "doc_count": 7
+        }, {
+          "key": 0.0,
+          "doc_count": 5
+        }, {
+          "key": 1.0,
+          "doc_count": 2
+        }]
+      }
+    },
+    "security_type_id_aggs": {
+      "doc_count": 14,
+      "security_type_id_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 2,
+          "doc_count": 10
+        }, {
+          "key": 1,
+          "doc_count": 4
+        }]
+      }
+    },
+    "is_gated_community_aggs": {
+      "doc_count": 14,
+      "is_gated_community_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": "F",
+          "doc_count": 9
+        }, {
+          "key": "T",
+          "doc_count": 5
+        }]
+      }
+    },
+    "property_type_id_aggs": {
+      "doc_count": 14,
+      "property_type_id_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 1,
+          "doc_count": 11
+        }, {
+          "key": 2,
+          "doc_count": 2
+        }, {
+          "key": 35,
+          "doc_count": 1
+        }]
+      }
+    },
+    "has_gym_aggs": {
+      "doc_count": 14,
+      "has_gym_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": "F",
+          "doc_count": 13
+        }, {
+          "key": "T",
+          "doc_count": 1
+        }]
+      }
+    },
+    "power_backup_type_id_aggs": {
+      "doc_count": 14,
+      "power_backup_type_id_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 1,
+          "doc_count": 6
+        }, {
+          "key": 2,
+          "doc_count": 5
+        }, {
+          "key": 3,
+          "doc_count": 3
+        }]
+      }
+    },
+    "furnish_type_id_aggs": {
+      "doc_count": 14,
+      "furnish_type_id_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+
+        ]
+      }
+    },
+    "apartment_type_id_aggs": {
+      "doc_count": 14,
+      "apartment_type_id_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 4,
+          "doc_count": 6
+        }, {
+          "key": 3,
+          "doc_count": 3
+        }, {
+          "key": 5,
+          "doc_count": 2
+        }, {
+          "key": 2,
+          "doc_count": 1
+        }, {
+          "key": 6,
+          "doc_count": 1
+        }, {
+          "key": 7,
+          "doc_count": 1
+        }]
+      }
+    },
+    "bathroom_count_aggs": {
+      "doc_count": 14,
+      "bathroom_count_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 3.0,
+          "doc_count": 7
+        }, {
+          "key": 2.0,
+          "doc_count": 5
+        }, {
+          "key": 1.0,
+          "doc_count": 1
+        }, {
+          "key": 4.0,
+          "doc_count": 1
+        }]
+      }
+    },
+    "has_swimming_pool_aggs": {
+      "doc_count": 14,
+      "has_swimming_pool_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": "F",
+          "doc_count": 13
+        }, {
+          "key": "T",
+          "doc_count": 1
+        }]
+      }
+    },
+    "owner_type_id_aggs": {
+      "doc_count": 14,
+      "owner_type_id_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 2,
+          "doc_count": 8
+        }, {
+          "key": 1,
+          "doc_count": 6
+        }]
+      }
+    },
+    "number_of_lifts_aggs": {
+      "doc_count": 14,
+      "number_of_lifts_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": 1.0,
+          "doc_count": 8
+        }, {
+          "key": 0.0,
+          "doc_count": 5
+        }, {
+          "key": 2.0,
+          "doc_count": 1
+        }]
+      }
+    },
+    "has_gas_pipeline_aggs": {
+      "doc_count": 14,
+      "has_gas_pipeline_aggs": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [{
+          "key": "F",
+          "doc_count": 14
+        }]
+      }
+    }
+  }
+}
