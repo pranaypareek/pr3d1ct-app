@@ -18,15 +18,7 @@
     }
 
     body {
-        padding-top: 50px;
-    }
-
-    #todo-list {
-        margin-bottom: 30px;
-    }
-
-    #todo-form {
-        margin-bottom: 50px;
+        padding-top: 20px;
     }
     </style>
     <!-- SPELLS -->
@@ -54,13 +46,15 @@
         <div class="panel panel-default">
             <div>
                 <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+                    <ui-gmap-markers models="placesGeometryList" coords="'self'" icon="'icon'" idKey="'idKey'">
+                    </ui-gmap-markers>
                 </ui-gmap-google-map>
             </div>
         </div>
         <div>
-					<button type="button" class="btn btn-default" ng-click="searchMap()">
-						Search!
-					</button>
+            <button type="button" class="btn btn-default" ng-click="searchMap()">
+                Search!
+            </button>
         </div>
     </div>
 </body>

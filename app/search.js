@@ -31,7 +31,7 @@ function Search(req, res) {
         var radarQuery = {
             location: [latitude, longitude],
             types: types,
-            radius: 2000
+            radius: 1000
         };
         console.log('radarQuery', radarQuery);
         googlePlaces.radarSearch(radarQuery, function(err, data) {

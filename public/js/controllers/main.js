@@ -16,13 +16,27 @@ angular.module('pr3d1ctController', [])
 
 
             data.results.forEach(function(obj) {
-                $scope.placesGeometryList.push(obj.geometry.location);
+                var temp = {
+                  geometryList: {
+                    idKey: obj.id,
+                    latitude: obj.geometry.location.lat,
+                    longitude: obj.geometry.location.lng
+                  },
+
+                  place_id: obj.place_id
+                }
+                $scope.placesGeometryList.push(temp.geometryList);
             });
 
             console.log('placesGeometryList: ', $scope.placesGeometryList);
 
-            var lat = $scope.placesGeometryList[0].lat;
-            var lng = $scope.placesGeometryList[0].lng;
+            var lat = $scope.placesGeometryList[0].latitude;
+            var lng = $scope.placesGeometryList[0].longitude;
+
+            $scope.coords = {
+              latitude: lat,
+              longitude: lng
+            }
 
             $scope.map = { center: { latitude: lat, longitude: lng }, zoom: 15 };
             $scope.loading = false;
