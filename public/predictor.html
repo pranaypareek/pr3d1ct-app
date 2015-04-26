@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bangalore Choropleth Maps</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="leaflet/leaflet.css"/>
+	<!--[if lte IE 8]><link rel="stylesheet" href=./leaflet/leaflet.ie.css" /><![endif]-->
+
+	  <link rel="stylesheet" href="css/bootstrap.css">
+	  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
+	  <script src="js/libs/modernizr-2.7.1.min.js"></script>
+
+	  <link rel="icon" type="image/png" href="favicon.html" />   
+	  <title>Berliner - Creative HTML5 Bootstrap Template</title>
+	<style>
+		#map {
+			width: 100%;
+			height: 580px;
+		}
+
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+
+	<script src="leaflet/leaflet.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="geojson/wards.js"></script>
+	<script type="text/javascript" src="geojson/wards2.js"></script>
+	<script type="text/javascript" src="geojson/wards3.js"></script>
+	
+	<script type="text/javascript">
+	function boom()
+		{
+			map.remove();
+			test();
+		}
+	</script>
+
+	<script type="text/javascript">
+		test();
+		function test(){
+		var map_title = "Bangalore Lifestyle Index";
+
+		window.map = L.map('map').setView([ 12.976549,77.594397], 12);
+
+		var mapquestUrl = 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png',
+		subDomains = ['otile1','otile2','otile3','otile4'];
+		var mapquest = new L.TileLayer(mapquestUrl, {maxZoom: 18, subdomains: subDomains});
+		mapquest.addTo(map);
+		
+		// control that shows state info on hover
+		var info = L.control();
+
+		info.onAdd = function (map) {
+			this._div = L.DomUtil.create('div', 'info');
+			this.update();
+			return this._div;
+		};
+
+		info.update = function (props) {
+			this._div.innerHTML = '<h4><font color="gray">'+map_title+'</font></h4>' +  (props ?
+				'<b><h4><font color="black">' + props.WARD_NAME + '</font></h4></b><br><h3><font color="black">' + props.WARD_NO + '</font></h3> '
+				: 'Hover over a ward');
+		};
+
+		info.addTo(map);
+
+
+		// get color depending on population density value
+		function getColor(d) {
+			
+				return d >= 9  ? '#800026' :
+					d >= 8  ? '#742314' :
+			       d >= 7  ? '#c23b22' :
+			       d >= 6  ? '#FC4E2A' :
+			       d >= 5   ? '#FD8D3C' :
+			       d >= 4   ? '#FEB24C' :
+			       d >= 3   ? '#FED976' :
+			                  '#FFEDA0';
+			
+		}
+
+		function style(feature) {
+			return {
+				weight: 2,
+				opacity: 1,
+				color: 'white',
+				dashArray: '3',
+				fillOpacity: 0.7,
+				fillColor: getColor(feature.properties.WARD_NO)
+			};
+		}
+
+		function highlightFeature(e) {
+			var layer = e.target;
+
+			layer.setStyle({
+				weight: 5,
+				color: '#666',
+				dashArray: '',
+				fillOpacity: 0.7
+			});
+
+			if (!L.Browser.ie && !L.Browser.opera) {
+				layer.bringToFront();
+			}
+
+			info.update(layer.feature.properties);
+		}
+
+		var geojson;
+
+		function resetHighlight(e) {
+			geojson.resetStyle(e.target);
+			info.update();
+		}
+
+		function zoomToFeature(e) {
+			map.fitBounds(e.target.getBounds());
+		}
+
+		function onEachFeature(feature, layer) {
+			layer.on({
+				mouseover: highlightFeature,
+				mouseout: resetHighlight,
+				click: zoomToFeature
+			});
+		}
+		var $radio = $('input[name=age]:checked');
+		var updateDay = $radio.val();
+		var id = $radio.attr('value');
+		console.log(id);
+
+		if(id == "Current")
+		{
+		geojson = L.geoJson(ward_a, {
+			style: style,
+			onEachFeature: onEachFeature
+		}).addTo(map);
+		}
+		else if(id == "5years")
+		{
+		geojson = L.geoJson(ward_b, {
+			style: style,
+			onEachFeature: onEachFeature
+		}).addTo(map);
+		}
+		else if(id == "10years")
+		{
+		geojson = L.geoJson(ward_c, {
+			style: style,
+			onEachFeature: onEachFeature
+		}).addTo(map);
+		}
+		else
+		{
+		geojson = L.geoJson(ward_a, {
+			style: style,
+			onEachFeature: onEachFeature
+		}).addTo(map);
+		}
+		map.attributionControl.addAttribution(map_attribution);
+		
+
+		var legend = L.control({position: 'bottomright'});
+
+		legend.onAdd = function (map) {
+
+			var div = L.DomUtil.create('div', 'info legend'),
+				grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+				labels = [],
+				from, to;
+
+			for (var i = 0; i < grades.length; i++) {
+				from = grades[i];
+				to = grades[i + 1];
+
+				labels.push(
+					'<i style="background:' + getColor(from + 1) + '"></i> ' +
+					from + (to ? '&ndash;' + to : '+'));
+			}
+
+			div.innerHTML = labels.join('<br>');
+			return div;
+		};
+
+		legend.addTo(map);
+	}
+	</script>
+
+	<div>
+		<section id="contact" class="contact-section">
+
+					<div class="container">
+
+			            <form class="contact-form" action="http://demo.themestreet.net/berliner/standard/form_data.php" novalidate="novalidate">
+
+			              	<div class="human-test">
+					            <div class="test">
+					              <p><strong><span>Years to Predict</span></strong></p>
+					            </div>
+					            <div>
+					              <label class="">
+					                <input type="radio" name="age" value="Current" onclick="boom()"><span>0</span>
+					              </label>
+					              <label class="">
+					                <input type="radio" name="age" value="5years" onclick="boom()"><span>5</span>
+					              </label>
+					              <label class="">
+					                <input type="radio" name="age" value="10years" onclick="boom()"><span>10</span>
+					              </label>	              
+					            </div>
+					        </div>
+
+			            </form>
+					           </div>
+					       </section>
+					  </div>
+
+</body>
+</html>
