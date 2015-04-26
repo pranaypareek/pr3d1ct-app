@@ -8,7 +8,7 @@ function Search(req, res) {
     var location = req.query.location + ' bangalore';
     //var amenitites = ['doctor', 'badminton'];
     var googlePlaces = new GooglePlaces(
-        'AIzaSyC8HSlurW0czIqjt6qvRpp80zsTNJXYBjQ', 'json');
+        'AIzaSyB9dSCCFaug3BCcpc5_1f2GU6KZHBlxdUM', 'json');
     var parameters;
     var types = 'hospital|restaraunt|gym|school|hindu_temple';
     /*for(var i=0; i<types.length; i++) {

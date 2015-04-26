@@ -10,7 +10,7 @@ function Predict(req, res) {
     var locations = req.query.locations;
     //var amenitites = ['doctor', 'badminton'];
     var googlePlaces = new GooglePlaces(
-        'AIzaSyAQVT80NecrWP3l2H2rKwLR6SPFLbQ7r-0', 'json');
+        'AIzaSyB9dSCCFaug3BCcpc5_1f2GU6KZHBlxdUM', 'json');
     var types = req.query.fields;
     var nearestObject = [];
 

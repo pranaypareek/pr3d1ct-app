@@ -7,7 +7,7 @@ function locations(req, res) {
     var location = req.query.location + ' bangalore';
     //var amenitites = ['doctor', 'badminton'];
     var googlePlaces = new GooglePlaces(
-        'AIzaSyC8HSlurW0czIqjt6qvRpp80zsTNJXYBjQ', 'json');
+        'AIzaSyB9dSCCFaug3BCcpc5_1f2GU6KZHBlxdUM', 'json');
     var parameters;
 
     parameters = {
