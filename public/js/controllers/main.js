@@ -29,6 +29,9 @@ angular.module('pr3d1ctController', [])
 
 
             data.results.forEach(function(obj) {
+                if(obj.icon === 'http://maps.gstatic.com/mapfiles/place_api/icons/fitness-71.png') {
+                  obj.icon = 'https://raw.githubusercontent.com/pranaypareek/pr3d1ct-app/master/public/static/images/Dumbbell-26.png';
+                }
                 var temp = {
                   geometryList: {
                     idKey: obj.id,
