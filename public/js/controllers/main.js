@@ -67,6 +67,14 @@ angular.module('pr3d1ctController', [])
                   obj.icon = 'https://raw.githubusercontent.com/pranaypareek/pr3d1ct-app/master/public/static/images/buddhism.png';
                 }
 
+                if (obj.icon === 'http://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png') {
+                  obj.icon = 'https://raw.githubusercontent.com/pranaypareek/pr3d1ct-app/master/public/static/images/Red-Cross.png';
+                }
+
+                if (obj.icon === 'http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png') {
+                  obj.icon = 'https://cdn4.iconfinder.com/data/icons/Pretty_office_icon_part_2/24/Briefcase.png';
+                }
+
                 var temp = {
                   geometryList: {
                     idKey: obj.id,
