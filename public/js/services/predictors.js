@@ -8,7 +8,7 @@ angular.module('pr3d1ctService', [])
             return $http.get('/search?location=koramangala');
         },
         location: function() {
-            return $http.get('/locations');
+            return $http.get('/locations?location=koramangala');
         },
         listing: function() {
             return $http.get('/listings?location=koramangala');

@@ -4,10 +4,7 @@ angular.module('pr3d1ctController', [])
 .controller('mainController', ['$scope', '$http', 'Predictors', function($scope, $http, Predictors) {
     $scope.formData = {};
     $scope.loading = true;
-    $scope.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
-    // GET =====================================================================
-    // when landing on the page, get all todos and show them
-    // use the service to get all the todos
+
     Predictors.location()
         .success(function (location) {
           $scope.map = { 
@@ -18,6 +15,11 @@ angular.module('pr3d1ctController', [])
               }, 
               zoom: 15 
           };
+
+          Predictors.listing()
+            .success(function (listings) {
+              $scope.listings = listings;
+            });
         });
     $scope.searchMap = function() {
       Predictors.search()

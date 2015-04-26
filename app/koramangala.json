@@ -1,1174 +1,1118 @@
 {
-  "took": 109,
-  "timed_out": false,
-  "_shards": {
-    "total": 11,
-    "successful": 11,
-    "failed": 0
-  },
-  "hits": {
-    "total": 29,
-    "max_score": 1,
-"infrastructure": [
-{"Metro":1},
-{"ITArea":1},
-{"Parks":10},
-{"Airport":30},
-{"CityCenter":10}
-]
-"hits": [
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "139517_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "HSR Layout",
-            "Teachers Colony"
-          ],
-          "bathroom_count": 1,
-          "seo_address_tags": [
-            "Bangalore",
-            "Koramangala",
-            "Teachers Colony"
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/c5ceddfc729f6b7f8e1c29c77cf71cdc\/version.jpg",
-          "is_gated_community": false,
-          "formatted_price": "38.0 Lacs",
-          "owner_type_id": "2",
-          "under_construction": false,
-          "apartment_type": "2 BHK",
-          "locality_url_name": "hsr-layout",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkhTUiBMYXlvdXQiLCJsYXQiOjEyLjkwNzU4MywibG5nIjo3Ny42NDc4OSwicmFkIjozMDAwfX0=",
-          "street_info": "5th Main Road, 1st Avenue Road, Near New Sapna Stores, Teachers Colony, 5th Sector",
-          "region_name": "South Bangalore",
-          "description": "2bedroom and Rs.2.8 Cr without brokerage house at immediate sale with adequate water supply close by JP Nagar,Bengaluru ",
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/139517-2-bhk-independent-floor-in-hsr-layout-for-rs-3800000",
-          "lifestyle_rating": 5,
-          "has_swimming_pool": false,
-          "longitude": 77.633645,
-          "head": true,
-          "center_point_longitude": "77.64789",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "No Brokerage 2 BHK Builder Floor",
-          "is_society_formed": null,
-          "contact_person_type": "Landlord",
-          "water_supply_type": "Municipal Water",
-          "price": 3800000,
-          "built_up_area": 1400,
-          "freshness_index": 100,
-          "apartment_type_id": "3",
-          "security_type_id": "1",
-          "center_point_latitude": "12.907583",
-          "date_added_in_seconds": 1423218600,
-          "latitude": 12.918124,
-          "number_of_lifts": 0,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "1",
-          "thumb_url": "01c16c28\/c5ceddfc729f6b7f8e1c29c77cf71cdc\/thumb.jpg",
-          "image_count": 11,
-          "center_point": "12.907583,77.64789",
-          "id": 139517,
-          "city_id": "38",
-          "title": "2 BHK Independent Floor in 5th Main Road, 1st Avenue Road, Near New Sapna Stores, Teachers Colony, 5th Sector, HSR Layout for sale - Bengaluru | Housing.com",
-          "parking_count": 2,
-          "date_added": "2015-02-06T16:00:00Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.918124,77.633645",
-          "has_servant_room": false,
-          "floor_number": 0,
-          "age_of_property": "2011-2-3",
-          "document_id": "139517",
-          "thumb_id": "01c16c28\/c5ceddfc729f6b7f8e1c29c77cf71cdc",
-          "main_entrance_facing": "South",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/139517-2-bhk-independent-floor-in-hsr-layout-for-rs-3800000",
-          "has_gym": false,
-          "seo_tags": [
-            "indfloor",
-            "2bhk",
-            "withoutbrokerage",
-            "bangalore",
-            "koramangala",
-            "teachers_colony"
-          ],
-          "versions": [
-            1426483800
-          ],
-          "property_type": "Independent Floor",
-          "power_backup_type": "None",
-          "per_square_feet_rate": 2714,
-          "floor_count": 2,
-          "min_version": 1426483800,
-          "bedroom_count": 2,
-          "property_type_id": "35",
-          "locality": "HSR Layout",
-          "security_type": "None",
-          "view_count": 0
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "155485_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "Koramangala",
-            "Koramangala 8th Block"
-          ],
-          "bathroom_count": 3,
-          "seo_address_tags": [
-            "Bangalore",
-            "Koramangala",
-            "Koramangala 8th Block"
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/ea3b930b58b296aa3850e70640a4782d\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "1.75 Cr",
-          "owner_type_id": "2",
-          "under_construction": false,
-          "apartment_type": "3.5 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "Adugodi Main Road, Near Bethany High School, Koramangala 8th Block",
-          "region_name": "South Bangalore",
-          "description": "Premium and secured apartment with good road connectivity and garden for resting in Bengaluru near Koramangala ",
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/155485-3.5-bhk-apartment-in-koramangala-for-rs-17500000",
-          "lifestyle_rating": 7.5,
-          "has_swimming_pool": true,
-          "longitude": 77.619832,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "3.5 BHK Apartment Without Brokerage",
-          "is_society_formed": null,
-          "contact_person_type": "Landlord",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 17500000,
-          "built_up_area": 1930,
-          "freshness_index": 100,
-          "apartment_type_id": "44",
-          "security_type_id": "2",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1425450171,
-          "latitude": 12.940863,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/ea3b930b58b296aa3850e70640a4782d\/thumb.jpg",
-          "image_count": 28,
-          "center_point": "12.931662,77.622687",
-          "id": 155485,
-          "city_id": "38",
-          "title": "3.5 BHK Apartment in Adugodi Main Road, Near Bethany High School, Koramangala 8th Block, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 2,
-          "date_added": "2015-03-04T11:52:51Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.940863,77.619832",
-          "has_servant_room": false,
-          "floor_number": 1,
-          "age_of_property": "2009-3-3",
-          "document_id": "155485",
-          "thumb_id": "01c16c28\/ea3b930b58b296aa3850e70640a4782d",
-          "main_entrance_facing": "East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/155485-3.5-bhk-apartment-in-koramangala-for-rs-17500000",
-          "has_gym": true,
-          "seo_tags": [
-            "flat",
-            "3+bhk",
-            "withoutbrokerage",
-            "bangalore",
-            "koramangala",
-            "koramangala_8th_block"
-          ],
-          "versions": [
-            1429792200
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 9067,
-          "floor_count": 4,
-          "min_version": 1429792200,
-          "bedroom_count": 4,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Basic",
-          "view_count": 528
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "181494_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "Koramangala",
-            "Koramangala Industrial Layout"
-          ],
-          "bathroom_count": 2,
-          "seo_address_tags": [
-            
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/11460f0b892c842cc5bcc6154bc2a045\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "51.0 Lacs",
-          "owner_type_id": "1",
-          "under_construction": false,
-          "apartment_type": "3 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "Green House Layout, Near Velankani Tech Park, Doddatoguru",
-          "region_name": "South Bangalore",
-          "description": "Triple BHK gated community flat having 2 parking and luxurious hall at Bengaluru near Koramangala ",
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/181494-3-bhk-apartment-in-koramangala-for-rs-5100000",
-          "lifestyle_rating": 7,
-          "has_swimming_pool": true,
-          "longitude": 77.614122,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": true,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "Triple Bedroom Apartment",
-          "is_society_formed": null,
-          "contact_person_type": "Agent",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 5100000,
-          "built_up_area": 1323,
-          "freshness_index": 100,
-          "apartment_type_id": "4",
-          "security_type_id": "3",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1427547227,
-          "latitude": 12.934885,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "2",
-          "thumb_url": "01c16c28\/11460f0b892c842cc5bcc6154bc2a045\/thumb.jpg",
-          "image_count": 17,
-          "center_point": "12.931662,77.622687",
-          "id": 181494,
-          "city_id": "38",
-          "title": "3 BHK Apartment in Green House Layout, Near Velankani Tech Park, Doddatoguru, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 2,
-          "date_added": "2015-03-28T18:23:47Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.934885,77.614122",
-          "has_servant_room": false,
-          "floor_number": 3,
-          "age_of_property": "2015-3-26",
-          "thumb_id": "01c16c28\/11460f0b892c842cc5bcc6154bc2a045",
-          "main_entrance_facing": "East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/181494-3-bhk-apartment-in-koramangala-for-rs-5100000",
-          "has_gym": true,
-          "seo_tags": [
-            
-          ],
-          "versions": [
-            1429950600
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Partial",
-          "per_square_feet_rate": 3854,
-          "floor_count": 4,
-          "min_version": 1429950600,
-          "bedroom_count": 3,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Advanced",
-          "view_count": 682
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "206372_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "HSR Layout",
-            "Teachers Colony"
-          ],
-          "bathroom_count": 3,
-          "seo_address_tags": [
-            
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/6bea861818fdf5dee754379240793dc7\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "91.0 Lacs",
-          "owner_type_id": "1",
-          "under_construction": false,
-          "apartment_type": "3 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "6th Main Road, Near Carmel Garden Public School, Teachers Colony",
-          "region_name": "South Bangalore",
-          "description": null,
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206372-3-bhk-apartment-in-koramangala-for-rs-9100000",
-          "lifestyle_rating": 5.8,
-          "has_swimming_pool": true,
-          "longitude": 77.633764,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "3 BHK Property",
-          "is_society_formed": null,
-          "contact_person_type": "Agent",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 9100000,
-          "built_up_area": 1640,
-          "freshness_index": 100,
-          "apartment_type_id": "4",
-          "security_type_id": "3",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1429886569,
-          "latitude": 12.917312,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/6bea861818fdf5dee754379240793dc7\/thumb.jpg",
-          "image_count": 16,
-          "center_point": "12.931662,77.622687",
-          "id": 206372,
-          "city_id": "38",
-          "title": "3 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, Teachers Colony, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 0,
-          "date_added": "2015-04-24T20:12:49Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.917312,77.633764",
-          "has_servant_room": false,
-          "floor_number": 1,
-          "age_of_property": "2015-4-24",
-          "thumb_id": "01c16c28\/6bea861818fdf5dee754379240793dc7",
-          "main_entrance_facing": "East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206372-3-bhk-apartment-in-koramangala-for-rs-9100000",
-          "has_gym": true,
-          "seo_tags": [
-            
-          ],
-          "versions": [
-            1429954200
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 5548,
-          "floor_count": 4,
-          "min_version": 1429954200,
-          "bedroom_count": 3,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Advanced",
-          "view_count": 99
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "206402_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "HSR Layout",
-            "Teachers Colony"
-          ],
-          "bathroom_count": 2,
-          "seo_address_tags": [
-            
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/8b17e996ce1959b21bd2159a59574aa6\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "91.0 Lacs",
-          "owner_type_id": "1",
-          "under_construction": false,
-          "apartment_type": "3 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "6th Main Road, Near Carmel Garden Public School, Teachers Colony",
-          "region_name": "South Bangalore",
-          "description": null,
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206402-3-bhk-apartment-in-koramangala-for-rs-9100000",
-          "lifestyle_rating": 5.8,
-          "has_swimming_pool": true,
-          "longitude": 77.633682,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "3 BHK Apartment",
-          "is_society_formed": null,
-          "contact_person_type": "Agent",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 9100000,
-          "built_up_area": 1543,
-          "freshness_index": 100,
-          "apartment_type_id": "4",
-          "security_type_id": "3",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1429941332,
-          "latitude": 12.917185,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/8b17e996ce1959b21bd2159a59574aa6\/thumb.jpg",
-          "image_count": 15,
-          "center_point": "12.931662,77.622687",
-          "id": 206402,
-          "city_id": "38",
-          "title": "3 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, Teachers Colony, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 0,
-          "date_added": "2015-04-25T11:25:32Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.917185,77.633682",
-          "has_servant_room": false,
-          "floor_number": 1,
-          "age_of_property": "2015-4-24",
-          "thumb_id": "01c16c28\/8b17e996ce1959b21bd2159a59574aa6",
-          "main_entrance_facing": "East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206402-3-bhk-apartment-in-koramangala-for-rs-9100000",
-          "has_gym": true,
-          "seo_tags": [
-            
-          ],
-          "versions": [
-            1429941600
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 5897,
-          "floor_count": 4,
-          "min_version": 1429941600,
-          "bedroom_count": 3,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Advanced",
-          "view_count": 0
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "140826_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "Koramangala",
-            "Koramangala 8th Block"
-          ],
-          "bathroom_count": 2,
-          "seo_address_tags": [
-            "Bangalore",
-            "Koramangala",
-            "Koramangala 8th Block"
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/b4dd1d01b30dee034837eb48dbd2a821\/version.jpg",
-          "is_gated_community": false,
-          "formatted_price": "85.0 Lacs",
-          "owner_type_id": "2",
-          "under_construction": false,
-          "apartment_type": "3.5 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "2nd 'c' Main Road, Near Sri Vinayaka Enterprises, 8th Block",
-          "region_name": "South Bangalore",
-          "description": "Four bedroom without brokerage property near Koramangala for sale for Rs.8.5 Lacs with 3 bathroom and spacious rooms ",
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/140826-3.5-bhk-independent-house-in-koramangala-for-rs-8500000",
-          "lifestyle_rating": 6.7,
-          "has_swimming_pool": false,
-          "longitude": 77.615897,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "3.5 BHK House Without Brokerage",
-          "is_society_formed": null,
-          "contact_person_type": "Landlord",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 8500000,
-          "built_up_area": 1500,
-          "freshness_index": 100,
-          "apartment_type_id": "44",
-          "security_type_id": "1",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1423303928,
-          "latitude": 12.940618,
-          "number_of_lifts": 0,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "1",
-          "thumb_url": "01c16c28\/b4dd1d01b30dee034837eb48dbd2a821\/thumb.jpg",
-          "image_count": 24,
-          "center_point": "12.931662,77.622687",
-          "id": 140826,
-          "city_id": "38",
-          "title": "3.5 BHK Independent House in 2nd 'c' Main Road, Near Sri Vinayaka Enterprises, 8th Block, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 2,
-          "date_added": "2015-02-07T15:42:08Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.940618,77.615897",
-          "has_servant_room": false,
-          "floor_number": 0,
-          "age_of_property": "2000-2-5",
-          "document_id": "140826",
-          "thumb_id": "01c16c28\/b4dd1d01b30dee034837eb48dbd2a821",
-          "main_entrance_facing": "North-East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/140826-3.5-bhk-independent-house-in-koramangala-for-rs-8500000",
-          "has_gym": false,
-          "seo_tags": [
-            "house",
-            "3+bhk",
-            "withoutbrokerage",
-            "bangalore",
-            "koramangala",
-            "koramangala_8th_block"
-          ],
-          "versions": [
-            1426483800
-          ],
-          "property_type": "Independent House",
-          "power_backup_type": "None",
-          "per_square_feet_rate": 5666,
-          "floor_count": 1,
-          "min_version": 1426483800,
-          "bedroom_count": 4,
-          "property_type_id": "2",
-          "locality": "Koramangala",
-          "security_type": "None",
-          "view_count": 0
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "206551_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "HSR Layout",
-            "Teachers Colony"
-          ],
-          "bathroom_count": 2,
-          "seo_address_tags": [
-            
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/dac831c1f21c800a6ff148a42516cd4f\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "72.0 Lacs",
-          "owner_type_id": "1",
-          "under_construction": false,
-          "apartment_type": "2 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "3rd Avenue Street, Near Mamta Market, Teachers Colony, Hsr Layout",
-          "region_name": "South Bangalore",
-          "description": null,
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206551-2-bhk-apartment-in-koramangala-for-rs-7200000",
-          "lifestyle_rating": 5.8,
-          "has_swimming_pool": true,
-          "longitude": 77.633109,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "Double Bedroom Flat",
-          "is_society_formed": null,
-          "contact_person_type": "Agent",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 7200000,
-          "built_up_area": 1185,
-          "freshness_index": 100,
-          "apartment_type_id": "3",
-          "security_type_id": "3",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1429884462,
-          "latitude": 12.917317,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/dac831c1f21c800a6ff148a42516cd4f\/thumb.jpg",
-          "image_count": 13,
-          "center_point": "12.931662,77.622687",
-          "id": 206551,
-          "city_id": "38",
-          "title": "2 BHK Apartment in 3rd Avenue Street, Near Mamta Market, Teachers Colony, Hsr Layout, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 0,
-          "date_added": "2015-04-24T19:37:42Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.917317,77.633109",
-          "has_servant_room": false,
-          "floor_number": 1,
-          "age_of_property": "2015-4-24",
-          "thumb_id": "01c16c28\/dac831c1f21c800a6ff148a42516cd4f",
-          "main_entrance_facing": "North",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206551-2-bhk-apartment-in-koramangala-for-rs-7200000",
-          "has_gym": true,
-          "seo_tags": [
-            
-          ],
-          "versions": [
-            1429938000
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 6075,
-          "floor_count": 4,
-          "min_version": 1429938000,
-          "bedroom_count": 2,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Advanced",
-          "view_count": 77
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "206695_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "HSR Layout",
-            "Teachers Colony"
-          ],
-          "bathroom_count": 2,
-          "seo_address_tags": [
-            
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/9274421ba367ebe27e5273e147ede976\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "75.0 Lacs",
-          "owner_type_id": "1",
-          "under_construction": false,
-          "apartment_type": "2 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "6th Main Road, Near Carmel Garden Public School, 1st Block",
-          "region_name": "South Bangalore",
-          "description": null,
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206695-2-bhk-apartment-in-koramangala-for-rs-7500000",
-          "lifestyle_rating": 5.8,
-          "has_swimming_pool": true,
-          "longitude": 77.633954,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "2 BHK Apartment",
-          "is_society_formed": null,
-          "contact_person_type": "Agent",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 7500000,
-          "built_up_area": 1345,
-          "freshness_index": 100,
-          "apartment_type_id": "3",
-          "security_type_id": "3",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1429941849,
-          "latitude": 12.917061,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/9274421ba367ebe27e5273e147ede976\/thumb.jpg",
-          "image_count": 13,
-          "center_point": "12.931662,77.622687",
-          "id": 206695,
-          "city_id": "38",
-          "title": "2 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, 1st Block, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 0,
-          "date_added": "2015-04-25T11:34:09Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.917061,77.633954",
-          "has_servant_room": false,
-          "floor_number": 1,
-          "age_of_property": "2015-4-24",
-          "thumb_id": "01c16c28\/9274421ba367ebe27e5273e147ede976",
-          "main_entrance_facing": "West",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206695-2-bhk-apartment-in-koramangala-for-rs-7500000",
-          "has_gym": true,
-          "seo_tags": [
-            
-          ],
-          "versions": [
-            1429943400
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 5576,
-          "floor_count": 4,
-          "min_version": 1429943400,
-          "bedroom_count": 2,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Advanced",
-          "view_count": 0
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "206422_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "HSR Layout",
-            "Teachers Colony"
-          ],
-          "bathroom_count": 2,
-          "seo_address_tags": [
-            
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/98535e9da3bdfe5d78f033357c4d915b\/version.jpg",
-          "is_gated_community": true,
-          "formatted_price": "91.0 Lacs",
-          "owner_type_id": "1",
-          "under_construction": false,
-          "apartment_type": "3 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "6th Main Road, Near Carmel Garden Public School, Teachers Colony",
-          "region_name": "South Bangalore",
-          "description": null,
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206422-3-bhk-apartment-in-koramangala-for-rs-9100000",
-          "lifestyle_rating": 5.8,
-          "has_swimming_pool": true,
-          "longitude": 77.633977,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "Triple Bedroom Property",
-          "is_society_formed": null,
-          "contact_person_type": "Agent",
-          "water_supply_type": "Bore and Municipal water",
-          "price": 9100000,
-          "built_up_area": 1560,
-          "freshness_index": 100,
-          "apartment_type_id": "4",
-          "security_type_id": "3",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1429944939,
-          "latitude": 12.916927,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/98535e9da3bdfe5d78f033357c4d915b\/thumb.jpg",
-          "image_count": 15,
-          "center_point": "12.931662,77.622687",
-          "id": 206422,
-          "city_id": "38",
-          "title": "3 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, Teachers Colony, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 0,
-          "date_added": "2015-04-25T12:25:39Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.916927,77.633977",
-          "has_servant_room": false,
-          "floor_number": 1,
-          "age_of_property": "2015-4-24",
-          "thumb_id": "01c16c28\/98535e9da3bdfe5d78f033357c4d915b",
-          "main_entrance_facing": "East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206422-3-bhk-apartment-in-koramangala-for-rs-9100000",
-          "has_gym": true,
-          "seo_tags": [
-            
-          ],
-          "versions": [
-            1429945200
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 5833,
-          "floor_count": 4,
-          "min_version": 1429945200,
-          "bedroom_count": 3,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Advanced",
-          "view_count": 0
-        }
-      },
-      {
-        "_index": "buy_flats_20150316135922",
-        "_type": "buy_flat",
-        "_id": "115943_true",
-        "_score": 1,
-        "_source": {
-          "display_locality": [
-            "Koramangala",
-            "Koramangala Industrial Layout"
-          ],
-          "bathroom_count": 4,
-          "seo_address_tags": [
-            "Bangalore",
-            "Koramangala",
-            "Koramangala Industrial Layout"
-          ],
-          "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/2fe4614288e66b99294819f5bf75cdaa\/version.jpg",
-          "is_gated_community": false,
-          "formatted_price": "1.6 Cr",
-          "owner_type_id": "2",
-          "under_construction": false,
-          "apartment_type": "4 BHK",
-          "locality_url_name": "koramangala",
-          "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
-          "street_info": "16th Main, 7th Cross, Near Mphasis Co, Mahadevapura",
-          "region_name": "South Bangalore",
-          "description": "Beautiful and spacious without broker flat in Bengaluru close by Koramangala with basic security ",
-          "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/115943-4-bhk-apartment-in-koramangala-for-rs-16000000",
-          "lifestyle_rating": 7,
-          "has_swimming_pool": false,
-          "longitude": 77.614291,
-          "head": true,
-          "center_point_longitude": "77.622687",
-          "is_price_negotiable": true,
-          "has_gas_pipeline": false,
-          "broker_listing_type": "false",
-          "thumb_name": ".jpg",
-          "seo_title": "4 BHK Property Without Brokers",
-          "is_society_formed": null,
-          "contact_person_type": "Landlord",
-          "water_supply_type": "Municipal Water",
-          "price": 16000000,
-          "built_up_area": 2300,
-          "freshness_index": 245,
-          "apartment_type_id": "5",
-          "security_type_id": "2",
-          "center_point_latitude": "12.931662",
-          "date_added_in_seconds": 1417424092,
-          "latitude": 12.934728,
-          "number_of_lifts": 1,
-          "city_name": "Bengaluru",
-          "power_backup_type_id": "3",
-          "thumb_url": "01c16c28\/2fe4614288e66b99294819f5bf75cdaa\/thumb.jpg",
-          "image_count": 21,
-          "center_point": "12.931662,77.622687",
-          "id": 115943,
-          "city_id": "38",
-          "title": "4 BHK Apartment in 16th Main, 7th Cross, Near Mphasis Co, Mahadevapura, Koramangala for sale - Bengaluru | Housing.com",
-          "parking_count": 2,
-          "date_added": "2014-12-01T14:24:52Z",
-          "city_url_name": "bangalore",
-          "coordinates": "12.934728,77.614291",
-          "has_servant_room": false,
-          "floor_number": 4,
-          "age_of_property": "2012-11-28",
-          "document_id": "115943",
-          "thumb_id": "01c16c28\/2fe4614288e66b99294819f5bf75cdaa",
-          "main_entrance_facing": "East",
-          "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/115943-4-bhk-apartment-in-koramangala-for-rs-16000000",
-          "has_gym": false,
-          "seo_tags": [
-            "flat",
-            "3+bhk",
-            "withoutbrokerage",
-            "bangalore",
-            "koramangala",
-            "koramangala_industrial_layout"
-          ],
-          "versions": [
-            1429875000
-          ],
-          "property_type": "Apartment",
-          "power_backup_type": "Full",
-          "per_square_feet_rate": 6956,
-          "floor_count": 5,
-          "min_version": 1429875000,
-          "bedroom_count": 4,
-          "property_type_id": "1",
-          "locality": "Koramangala",
-          "security_type": "Basic",
-          "view_count": 2262
-        }
-      }
-    ]
-  },
-  "aggregations": {
-    "has_servant_room_aggs": {
-      "doc_count": 29,
-      "has_servant_room_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": "F",
-            "doc_count": 29
-          }
-        ]
-      }
+    "took": 109,
+    "timed_out": false,
+    "_shards": {
+        "total": 11,
+        "successful": 11,
+        "failed": 0
     },
-    "parking_count_aggs": {
-      "doc_count": 29,
-      "parking_count_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 0,
-            "doc_count": 14
-          },
-          {
-            "key": 2,
-            "doc_count": 11
-          },
-          {
-            "key": 1,
-            "doc_count": 4
-          }
-        ]
-      }
-    },
-    "security_type_id_aggs": {
-      "doc_count": 29,
-      "security_type_id_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 3,
-            "doc_count": 14
-          },
-          {
-            "key": 2,
-            "doc_count": 10
-          },
-          {
-            "key": 1,
-            "doc_count": 5
-          }
-        ]
-      }
-    },
-    "is_gated_community_aggs": {
-      "doc_count": 29,
-      "is_gated_community_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": "T",
-            "doc_count": 21
-          },
-          {
-            "key": "F",
-            "doc_count": 8
-          }
-        ]
-      }
-    },
-    "property_type_id_aggs": {
-      "doc_count": 29,
-      "property_type_id_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 1,
-            "doc_count": 24
-          },
-          {
-            "key": 35,
-            "doc_count": 3
-          },
-          {
-            "key": 2,
-            "doc_count": 2
-          }
-        ]
-      }
-    },
-    "has_gym_aggs": {
-      "doc_count": 29,
-      "has_gym_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": "T",
-            "doc_count": 18
-          },
-          {
-            "key": "F",
-            "doc_count": 11
-          }
-        ]
-      }
-    },
-    "power_backup_type_id_aggs": {
-      "doc_count": 29,
-      "power_backup_type_id_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 3,
-            "doc_count": 19
-          },
-          {
-            "key": 1,
-            "doc_count": 5
-          },
-          {
-            "key": 2,
-            "doc_count": 5
-          }
-        ]
-      }
-    },
-    "furnish_type_id_aggs": {
-      "doc_count": 29,
-      "furnish_type_id_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          
-        ]
-      }
-    },
-    "apartment_type_id_aggs": {
-      "doc_count": 29,
-      "apartment_type_id_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 3,
-            "doc_count": 16
-          },
-          {
-            "key": 4,
-            "doc_count": 8
-          },
-          {
-            "key": 5,
-            "doc_count": 2
-          },
-          {
-            "key": 44,
-            "doc_count": 2
-          },
-          {
-            "key": 8,
-            "doc_count": 1
-          }
-        ]
-      }
-    },
-    "bathroom_count_aggs": {
-      "doc_count": 29,
-      "bathroom_count_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 2,
-            "doc_count": 18
-          },
-          {
-            "key": 1,
-            "doc_count": 4
-          },
-          {
-            "key": 3,
-            "doc_count": 4
-          },
-          {
-            "key": 4,
-            "doc_count": 3
-          }
-        ]
-      }
-    },
-    "has_swimming_pool_aggs": {
-      "doc_count": 29,
-      "has_swimming_pool_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": "F",
-            "doc_count": 15
-          },
-          {
-            "key": "T",
-            "doc_count": 14
-          }
-        ]
-      }
-    },
-    "owner_type_id_aggs": {
-      "doc_count": 29,
-      "owner_type_id_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 1,
-            "doc_count": 19
-          },
-          {
-            "key": 2,
-            "doc_count": 10
-          }
-        ]
-      }
-    },
-    "number_of_lifts_aggs": {
-      "doc_count": 29,
-      "number_of_lifts_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": 1,
-            "doc_count": 20
-          },
-          {
-            "key": 0,
-            "doc_count": 6
-          },
-          {
-            "key": 2,
-            "doc_count": 3
-          }
-        ]
-      }
-    },
-    "has_gas_pipeline_aggs": {
-      "doc_count": 29,
-      "has_gas_pipeline_aggs": {
-        "doc_count_error_upper_bound": 0,
-        "sum_other_doc_count": 0,
-        "buckets": [
-          {
-            "key": "F",
-            "doc_count": 28
-          },
-          {
-            "key": "T",
-            "doc_count": 1
-          }
-        ]
-      }
-    }
-  }
-}
+    "hits": {
+        "total": 29,
+        "max_score": 1,
+        "infrastructure": [{
+            "Metro": 1
+        }, {
+            "ITArea": 1
+        }, {
+            "Parks": 10
+        }, {
+            "Airport": 30
+        }, {
+            "CityCenter": 10
+        }],
+        "hits": [{
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "139517_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "HSR Layout",
+                    "Teachers Colony"
+                ],
+                "bathroom_count": 1,
+                "seo_address_tags": [
+                    "Bangalore",
+                    "Koramangala",
+                    "Teachers Colony"
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/c5ceddfc729f6b7f8e1c29c77cf71cdc\/version.jpg",
+                "is_gated_community": false,
+                "formatted_price": "38.0 Lacs",
+                "owner_type_id": "2",
+                "under_construction": false,
+                "apartment_type": "2 BHK",
+                "locality_url_name": "hsr-layout",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IkhTUiBMYXlvdXQiLCJsYXQiOjEyLjkwNzU4MywibG5nIjo3Ny42NDc4OSwicmFkIjozMDAwfX0=",
+                "street_info": "5th Main Road, 1st Avenue Road, Near New Sapna Stores, Teachers Colony, 5th Sector",
+                "region_name": "South Bangalore",
+                "description": "2bedroom and Rs.2.8 Cr without brokerage house at immediate sale with adequate water supply close by JP Nagar,Bengaluru ",
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/139517-2-bhk-independent-floor-in-hsr-layout-for-rs-3800000",
+                "lifestyle_rating": 5,
+                "has_swimming_pool": false,
+                "longitude": 77.633645,
+                "head": true,
+                "center_point_longitude": "77.64789",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "No Brokerage 2 BHK Builder Floor",
+                "is_society_formed": null,
+                "contact_person_type": "Landlord",
+                "water_supply_type": "Municipal Water",
+                "price": 3800000,
+                "built_up_area": 1400,
+                "freshness_index": 100,
+                "apartment_type_id": "3",
+                "security_type_id": "1",
+                "center_point_latitude": "12.907583",
+                "date_added_in_seconds": 1423218600,
+                "latitude": 12.918124,
+                "number_of_lifts": 0,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "1",
+                "thumb_url": "01c16c28\/c5ceddfc729f6b7f8e1c29c77cf71cdc\/thumb.jpg",
+                "image_count": 11,
+                "center_point": "12.907583,77.64789",
+                "id": 139517,
+                "city_id": "38",
+                "title": "2 BHK Independent Floor in 5th Main Road, 1st Avenue Road, Near New Sapna Stores, Teachers Colony, 5th Sector, HSR Layout for sale - Bengaluru | Housing.com",
+                "parking_count": 2,
+                "date_added": "2015-02-06T16:00:00Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.918124,77.633645",
+                "has_servant_room": false,
+                "floor_number": 0,
+                "age_of_property": "2011-2-3",
+                "document_id": "139517",
+                "thumb_id": "01c16c28\/c5ceddfc729f6b7f8e1c29c77cf71cdc",
+                "main_entrance_facing": "South",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/139517-2-bhk-independent-floor-in-hsr-layout-for-rs-3800000",
+                "has_gym": false,
+                "seo_tags": [
+                    "indfloor",
+                    "2bhk",
+                    "withoutbrokerage",
+                    "bangalore",
+                    "koramangala",
+                    "teachers_colony"
+                ],
+                "versions": [
+                    1426483800
+                ],
+                "property_type": "Independent Floor",
+                "power_backup_type": "None",
+                "per_square_feet_rate": 2714,
+                "floor_count": 2,
+                "min_version": 1426483800,
+                "bedroom_count": 2,
+                "property_type_id": "35",
+                "locality": "HSR Layout",
+                "security_type": "None",
+                "view_count": 0
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "155485_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "Koramangala",
+                    "Koramangala 8th Block"
+                ],
+                "bathroom_count": 3,
+                "seo_address_tags": [
+                    "Bangalore",
+                    "Koramangala",
+                    "Koramangala 8th Block"
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/ea3b930b58b296aa3850e70640a4782d\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "1.75 Cr",
+                "owner_type_id": "2",
+                "under_construction": false,
+                "apartment_type": "3.5 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "Adugodi Main Road, Near Bethany High School, Koramangala 8th Block",
+                "region_name": "South Bangalore",
+                "description": "Premium and secured apartment with good road connectivity and garden for resting in Bengaluru near Koramangala ",
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/155485-3.5-bhk-apartment-in-koramangala-for-rs-17500000",
+                "lifestyle_rating": 7.5,
+                "has_swimming_pool": true,
+                "longitude": 77.619832,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "3.5 BHK Apartment Without Brokerage",
+                "is_society_formed": null,
+                "contact_person_type": "Landlord",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 17500000,
+                "built_up_area": 1930,
+                "freshness_index": 100,
+                "apartment_type_id": "44",
+                "security_type_id": "2",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1425450171,
+                "latitude": 12.940863,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/ea3b930b58b296aa3850e70640a4782d\/thumb.jpg",
+                "image_count": 28,
+                "center_point": "12.931662,77.622687",
+                "id": 155485,
+                "city_id": "38",
+                "title": "3.5 BHK Apartment in Adugodi Main Road, Near Bethany High School, Koramangala 8th Block, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 2,
+                "date_added": "2015-03-04T11:52:51Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.940863,77.619832",
+                "has_servant_room": false,
+                "floor_number": 1,
+                "age_of_property": "2009-3-3",
+                "document_id": "155485",
+                "thumb_id": "01c16c28\/ea3b930b58b296aa3850e70640a4782d",
+                "main_entrance_facing": "East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/155485-3.5-bhk-apartment-in-koramangala-for-rs-17500000",
+                "has_gym": true,
+                "seo_tags": [
+                    "flat",
+                    "3+bhk",
+                    "withoutbrokerage",
+                    "bangalore",
+                    "koramangala",
+                    "koramangala_8th_block"
+                ],
+                "versions": [
+                    1429792200
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 9067,
+                "floor_count": 4,
+                "min_version": 1429792200,
+                "bedroom_count": 4,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Basic",
+                "view_count": 528
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "181494_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "Koramangala",
+                    "Koramangala Industrial Layout"
+                ],
+                "bathroom_count": 2,
+                "seo_address_tags": [
 
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/11460f0b892c842cc5bcc6154bc2a045\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "51.0 Lacs",
+                "owner_type_id": "1",
+                "under_construction": false,
+                "apartment_type": "3 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "Green House Layout, Near Velankani Tech Park, Doddatoguru",
+                "region_name": "South Bangalore",
+                "description": "Triple BHK gated community flat having 2 parking and luxurious hall at Bengaluru near Koramangala ",
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/181494-3-bhk-apartment-in-koramangala-for-rs-5100000",
+                "lifestyle_rating": 7,
+                "has_swimming_pool": true,
+                "longitude": 77.614122,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": true,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "Triple Bedroom Apartment",
+                "is_society_formed": null,
+                "contact_person_type": "Agent",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 5100000,
+                "built_up_area": 1323,
+                "freshness_index": 100,
+                "apartment_type_id": "4",
+                "security_type_id": "3",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1427547227,
+                "latitude": 12.934885,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "2",
+                "thumb_url": "01c16c28\/11460f0b892c842cc5bcc6154bc2a045\/thumb.jpg",
+                "image_count": 17,
+                "center_point": "12.931662,77.622687",
+                "id": 181494,
+                "city_id": "38",
+                "title": "3 BHK Apartment in Green House Layout, Near Velankani Tech Park, Doddatoguru, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 2,
+                "date_added": "2015-03-28T18:23:47Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.934885,77.614122",
+                "has_servant_room": false,
+                "floor_number": 3,
+                "age_of_property": "2015-3-26",
+                "thumb_id": "01c16c28\/11460f0b892c842cc5bcc6154bc2a045",
+                "main_entrance_facing": "East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/181494-3-bhk-apartment-in-koramangala-for-rs-5100000",
+                "has_gym": true,
+                "seo_tags": [
+
+                ],
+                "versions": [
+                    1429950600
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Partial",
+                "per_square_feet_rate": 3854,
+                "floor_count": 4,
+                "min_version": 1429950600,
+                "bedroom_count": 3,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Advanced",
+                "view_count": 682
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "206372_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "HSR Layout",
+                    "Teachers Colony"
+                ],
+                "bathroom_count": 3,
+                "seo_address_tags": [
+
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/6bea861818fdf5dee754379240793dc7\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "91.0 Lacs",
+                "owner_type_id": "1",
+                "under_construction": false,
+                "apartment_type": "3 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "6th Main Road, Near Carmel Garden Public School, Teachers Colony",
+                "region_name": "South Bangalore",
+                "description": null,
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206372-3-bhk-apartment-in-koramangala-for-rs-9100000",
+                "lifestyle_rating": 5.8,
+                "has_swimming_pool": true,
+                "longitude": 77.633764,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "3 BHK Property",
+                "is_society_formed": null,
+                "contact_person_type": "Agent",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 9100000,
+                "built_up_area": 1640,
+                "freshness_index": 100,
+                "apartment_type_id": "4",
+                "security_type_id": "3",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1429886569,
+                "latitude": 12.917312,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/6bea861818fdf5dee754379240793dc7\/thumb.jpg",
+                "image_count": 16,
+                "center_point": "12.931662,77.622687",
+                "id": 206372,
+                "city_id": "38",
+                "title": "3 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, Teachers Colony, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 0,
+                "date_added": "2015-04-24T20:12:49Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.917312,77.633764",
+                "has_servant_room": false,
+                "floor_number": 1,
+                "age_of_property": "2015-4-24",
+                "thumb_id": "01c16c28\/6bea861818fdf5dee754379240793dc7",
+                "main_entrance_facing": "East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206372-3-bhk-apartment-in-koramangala-for-rs-9100000",
+                "has_gym": true,
+                "seo_tags": [
+
+                ],
+                "versions": [
+                    1429954200
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 5548,
+                "floor_count": 4,
+                "min_version": 1429954200,
+                "bedroom_count": 3,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Advanced",
+                "view_count": 99
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "206402_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "HSR Layout",
+                    "Teachers Colony"
+                ],
+                "bathroom_count": 2,
+                "seo_address_tags": [
+
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/8b17e996ce1959b21bd2159a59574aa6\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "91.0 Lacs",
+                "owner_type_id": "1",
+                "under_construction": false,
+                "apartment_type": "3 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "6th Main Road, Near Carmel Garden Public School, Teachers Colony",
+                "region_name": "South Bangalore",
+                "description": null,
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206402-3-bhk-apartment-in-koramangala-for-rs-9100000",
+                "lifestyle_rating": 5.8,
+                "has_swimming_pool": true,
+                "longitude": 77.633682,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "3 BHK Apartment",
+                "is_society_formed": null,
+                "contact_person_type": "Agent",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 9100000,
+                "built_up_area": 1543,
+                "freshness_index": 100,
+                "apartment_type_id": "4",
+                "security_type_id": "3",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1429941332,
+                "latitude": 12.917185,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/8b17e996ce1959b21bd2159a59574aa6\/thumb.jpg",
+                "image_count": 15,
+                "center_point": "12.931662,77.622687",
+                "id": 206402,
+                "city_id": "38",
+                "title": "3 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, Teachers Colony, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 0,
+                "date_added": "2015-04-25T11:25:32Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.917185,77.633682",
+                "has_servant_room": false,
+                "floor_number": 1,
+                "age_of_property": "2015-4-24",
+                "thumb_id": "01c16c28\/8b17e996ce1959b21bd2159a59574aa6",
+                "main_entrance_facing": "East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206402-3-bhk-apartment-in-koramangala-for-rs-9100000",
+                "has_gym": true,
+                "seo_tags": [
+
+                ],
+                "versions": [
+                    1429941600
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 5897,
+                "floor_count": 4,
+                "min_version": 1429941600,
+                "bedroom_count": 3,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Advanced",
+                "view_count": 0
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "140826_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "Koramangala",
+                    "Koramangala 8th Block"
+                ],
+                "bathroom_count": 2,
+                "seo_address_tags": [
+                    "Bangalore",
+                    "Koramangala",
+                    "Koramangala 8th Block"
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/b4dd1d01b30dee034837eb48dbd2a821\/version.jpg",
+                "is_gated_community": false,
+                "formatted_price": "85.0 Lacs",
+                "owner_type_id": "2",
+                "under_construction": false,
+                "apartment_type": "3.5 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "2nd 'c' Main Road, Near Sri Vinayaka Enterprises, 8th Block",
+                "region_name": "South Bangalore",
+                "description": "Four bedroom without brokerage property near Koramangala for sale for Rs.8.5 Lacs with 3 bathroom and spacious rooms ",
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/140826-3.5-bhk-independent-house-in-koramangala-for-rs-8500000",
+                "lifestyle_rating": 6.7,
+                "has_swimming_pool": false,
+                "longitude": 77.615897,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "3.5 BHK House Without Brokerage",
+                "is_society_formed": null,
+                "contact_person_type": "Landlord",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 8500000,
+                "built_up_area": 1500,
+                "freshness_index": 100,
+                "apartment_type_id": "44",
+                "security_type_id": "1",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1423303928,
+                "latitude": 12.940618,
+                "number_of_lifts": 0,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "1",
+                "thumb_url": "01c16c28\/b4dd1d01b30dee034837eb48dbd2a821\/thumb.jpg",
+                "image_count": 24,
+                "center_point": "12.931662,77.622687",
+                "id": 140826,
+                "city_id": "38",
+                "title": "3.5 BHK Independent House in 2nd 'c' Main Road, Near Sri Vinayaka Enterprises, 8th Block, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 2,
+                "date_added": "2015-02-07T15:42:08Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.940618,77.615897",
+                "has_servant_room": false,
+                "floor_number": 0,
+                "age_of_property": "2000-2-5",
+                "document_id": "140826",
+                "thumb_id": "01c16c28\/b4dd1d01b30dee034837eb48dbd2a821",
+                "main_entrance_facing": "North-East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/140826-3.5-bhk-independent-house-in-koramangala-for-rs-8500000",
+                "has_gym": false,
+                "seo_tags": [
+                    "house",
+                    "3+bhk",
+                    "withoutbrokerage",
+                    "bangalore",
+                    "koramangala",
+                    "koramangala_8th_block"
+                ],
+                "versions": [
+                    1426483800
+                ],
+                "property_type": "Independent House",
+                "power_backup_type": "None",
+                "per_square_feet_rate": 5666,
+                "floor_count": 1,
+                "min_version": 1426483800,
+                "bedroom_count": 4,
+                "property_type_id": "2",
+                "locality": "Koramangala",
+                "security_type": "None",
+                "view_count": 0
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "206551_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "HSR Layout",
+                    "Teachers Colony"
+                ],
+                "bathroom_count": 2,
+                "seo_address_tags": [
+
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/dac831c1f21c800a6ff148a42516cd4f\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "72.0 Lacs",
+                "owner_type_id": "1",
+                "under_construction": false,
+                "apartment_type": "2 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "3rd Avenue Street, Near Mamta Market, Teachers Colony, Hsr Layout",
+                "region_name": "South Bangalore",
+                "description": null,
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206551-2-bhk-apartment-in-koramangala-for-rs-7200000",
+                "lifestyle_rating": 5.8,
+                "has_swimming_pool": true,
+                "longitude": 77.633109,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "Double Bedroom Flat",
+                "is_society_formed": null,
+                "contact_person_type": "Agent",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 7200000,
+                "built_up_area": 1185,
+                "freshness_index": 100,
+                "apartment_type_id": "3",
+                "security_type_id": "3",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1429884462,
+                "latitude": 12.917317,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/dac831c1f21c800a6ff148a42516cd4f\/thumb.jpg",
+                "image_count": 13,
+                "center_point": "12.931662,77.622687",
+                "id": 206551,
+                "city_id": "38",
+                "title": "2 BHK Apartment in 3rd Avenue Street, Near Mamta Market, Teachers Colony, Hsr Layout, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 0,
+                "date_added": "2015-04-24T19:37:42Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.917317,77.633109",
+                "has_servant_room": false,
+                "floor_number": 1,
+                "age_of_property": "2015-4-24",
+                "thumb_id": "01c16c28\/dac831c1f21c800a6ff148a42516cd4f",
+                "main_entrance_facing": "North",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206551-2-bhk-apartment-in-koramangala-for-rs-7200000",
+                "has_gym": true,
+                "seo_tags": [
+
+                ],
+                "versions": [
+                    1429938000
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 6075,
+                "floor_count": 4,
+                "min_version": 1429938000,
+                "bedroom_count": 2,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Advanced",
+                "view_count": 77
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "206695_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "HSR Layout",
+                    "Teachers Colony"
+                ],
+                "bathroom_count": 2,
+                "seo_address_tags": [
+
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/9274421ba367ebe27e5273e147ede976\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "75.0 Lacs",
+                "owner_type_id": "1",
+                "under_construction": false,
+                "apartment_type": "2 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "6th Main Road, Near Carmel Garden Public School, 1st Block",
+                "region_name": "South Bangalore",
+                "description": null,
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206695-2-bhk-apartment-in-koramangala-for-rs-7500000",
+                "lifestyle_rating": 5.8,
+                "has_swimming_pool": true,
+                "longitude": 77.633954,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "2 BHK Apartment",
+                "is_society_formed": null,
+                "contact_person_type": "Agent",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 7500000,
+                "built_up_area": 1345,
+                "freshness_index": 100,
+                "apartment_type_id": "3",
+                "security_type_id": "3",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1429941849,
+                "latitude": 12.917061,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/9274421ba367ebe27e5273e147ede976\/thumb.jpg",
+                "image_count": 13,
+                "center_point": "12.931662,77.622687",
+                "id": 206695,
+                "city_id": "38",
+                "title": "2 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, 1st Block, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 0,
+                "date_added": "2015-04-25T11:34:09Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.917061,77.633954",
+                "has_servant_room": false,
+                "floor_number": 1,
+                "age_of_property": "2015-4-24",
+                "thumb_id": "01c16c28\/9274421ba367ebe27e5273e147ede976",
+                "main_entrance_facing": "West",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206695-2-bhk-apartment-in-koramangala-for-rs-7500000",
+                "has_gym": true,
+                "seo_tags": [
+
+                ],
+                "versions": [
+                    1429943400
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 5576,
+                "floor_count": 4,
+                "min_version": 1429943400,
+                "bedroom_count": 2,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Advanced",
+                "view_count": 0
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "206422_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "HSR Layout",
+                    "Teachers Colony"
+                ],
+                "bathroom_count": 2,
+                "seo_address_tags": [
+
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/98535e9da3bdfe5d78f033357c4d915b\/version.jpg",
+                "is_gated_community": true,
+                "formatted_price": "91.0 Lacs",
+                "owner_type_id": "1",
+                "under_construction": false,
+                "apartment_type": "3 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "6th Main Road, Near Carmel Garden Public School, Teachers Colony",
+                "region_name": "South Bangalore",
+                "description": null,
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206422-3-bhk-apartment-in-koramangala-for-rs-9100000",
+                "lifestyle_rating": 5.8,
+                "has_swimming_pool": true,
+                "longitude": 77.633977,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "Triple Bedroom Property",
+                "is_society_formed": null,
+                "contact_person_type": "Agent",
+                "water_supply_type": "Bore and Municipal water",
+                "price": 9100000,
+                "built_up_area": 1560,
+                "freshness_index": 100,
+                "apartment_type_id": "4",
+                "security_type_id": "3",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1429944939,
+                "latitude": 12.916927,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/98535e9da3bdfe5d78f033357c4d915b\/thumb.jpg",
+                "image_count": 15,
+                "center_point": "12.931662,77.622687",
+                "id": 206422,
+                "city_id": "38",
+                "title": "3 BHK Apartment in 6th Main Road, Near Carmel Garden Public School, Teachers Colony, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 0,
+                "date_added": "2015-04-25T12:25:39Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.916927,77.633977",
+                "has_servant_room": false,
+                "floor_number": 1,
+                "age_of_property": "2015-4-24",
+                "thumb_id": "01c16c28\/98535e9da3bdfe5d78f033357c4d915b",
+                "main_entrance_facing": "East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/206422-3-bhk-apartment-in-koramangala-for-rs-9100000",
+                "has_gym": true,
+                "seo_tags": [
+
+                ],
+                "versions": [
+                    1429945200
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 5833,
+                "floor_count": 4,
+                "min_version": 1429945200,
+                "bedroom_count": 3,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Advanced",
+                "view_count": 0
+            }
+        }, {
+            "_index": "buy_flats_20150316135922",
+            "_type": "buy_flat",
+            "_id": "115943_true",
+            "_score": 1,
+            "_source": {
+                "display_locality": [
+                    "Koramangala",
+                    "Koramangala Industrial Layout"
+                ],
+                "bathroom_count": 4,
+                "seo_address_tags": [
+                    "Bangalore",
+                    "Koramangala",
+                    "Koramangala Industrial Layout"
+                ],
+                "thumb_url_new": "https:\/\/is1-0.housingcdn.com\/01c16c28\/2fe4614288e66b99294819f5bf75cdaa\/version.jpg",
+                "is_gated_community": false,
+                "formatted_price": "1.6 Cr",
+                "owner_type_id": "2",
+                "under_construction": false,
+                "apartment_type": "4 BHK",
+                "locality_url_name": "koramangala",
+                "locality_filter_param": "eyJuZWFyYnkiOnsibmFtZSI6IktvcmFtYW5nYWxhIiwibGF0IjoxMi45MzE2NjIsImxuZyI6NzcuNjIyNjg3LCJyYWQiOjMwMDB9fQ==",
+                "street_info": "16th Main, 7th Cross, Near Mphasis Co, Mahadevapura",
+                "region_name": "South Bangalore",
+                "description": "Beautiful and spacious without broker flat in Bengaluru close by Koramangala with basic security ",
+                "share_url": "https:\/\/housing.com\/in\/bangalore\/buy\/115943-4-bhk-apartment-in-koramangala-for-rs-16000000",
+                "lifestyle_rating": 7,
+                "has_swimming_pool": false,
+                "longitude": 77.614291,
+                "head": true,
+                "center_point_longitude": "77.622687",
+                "is_price_negotiable": true,
+                "has_gas_pipeline": false,
+                "broker_listing_type": "false",
+                "thumb_name": ".jpg",
+                "seo_title": "4 BHK Property Without Brokers",
+                "is_society_formed": null,
+                "contact_person_type": "Landlord",
+                "water_supply_type": "Municipal Water",
+                "price": 16000000,
+                "built_up_area": 2300,
+                "freshness_index": 245,
+                "apartment_type_id": "5",
+                "security_type_id": "2",
+                "center_point_latitude": "12.931662",
+                "date_added_in_seconds": 1417424092,
+                "latitude": 12.934728,
+                "number_of_lifts": 1,
+                "city_name": "Bengaluru",
+                "power_backup_type_id": "3",
+                "thumb_url": "01c16c28\/2fe4614288e66b99294819f5bf75cdaa\/thumb.jpg",
+                "image_count": 21,
+                "center_point": "12.931662,77.622687",
+                "id": 115943,
+                "city_id": "38",
+                "title": "4 BHK Apartment in 16th Main, 7th Cross, Near Mphasis Co, Mahadevapura, Koramangala for sale - Bengaluru | Housing.com",
+                "parking_count": 2,
+                "date_added": "2014-12-01T14:24:52Z",
+                "city_url_name": "bangalore",
+                "coordinates": "12.934728,77.614291",
+                "has_servant_room": false,
+                "floor_number": 4,
+                "age_of_property": "2012-11-28",
+                "document_id": "115943",
+                "thumb_id": "01c16c28\/2fe4614288e66b99294819f5bf75cdaa",
+                "main_entrance_facing": "East",
+                "canonical_url": "https:\/\/housing.com\/in\/bangalore\/buy\/115943-4-bhk-apartment-in-koramangala-for-rs-16000000",
+                "has_gym": false,
+                "seo_tags": [
+                    "flat",
+                    "3+bhk",
+                    "withoutbrokerage",
+                    "bangalore",
+                    "koramangala",
+                    "koramangala_industrial_layout"
+                ],
+                "versions": [
+                    1429875000
+                ],
+                "property_type": "Apartment",
+                "power_backup_type": "Full",
+                "per_square_feet_rate": 6956,
+                "floor_count": 5,
+                "min_version": 1429875000,
+                "bedroom_count": 4,
+                "property_type_id": "1",
+                "locality": "Koramangala",
+                "security_type": "Basic",
+                "view_count": 2262
+            }
+        }]
+    },
+    "aggregations": {
+        "has_servant_room_aggs": {
+            "doc_count": 29,
+            "has_servant_room_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": "F",
+                    "doc_count": 29
+                }]
+            }
+        },
+        "parking_count_aggs": {
+            "doc_count": 29,
+            "parking_count_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 0,
+                    "doc_count": 14
+                }, {
+                    "key": 2,
+                    "doc_count": 11
+                }, {
+                    "key": 1,
+                    "doc_count": 4
+                }]
+            }
+        },
+        "security_type_id_aggs": {
+            "doc_count": 29,
+            "security_type_id_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 3,
+                    "doc_count": 14
+                }, {
+                    "key": 2,
+                    "doc_count": 10
+                }, {
+                    "key": 1,
+                    "doc_count": 5
+                }]
+            }
+        },
+        "is_gated_community_aggs": {
+            "doc_count": 29,
+            "is_gated_community_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": "T",
+                    "doc_count": 21
+                }, {
+                    "key": "F",
+                    "doc_count": 8
+                }]
+            }
+        },
+        "property_type_id_aggs": {
+            "doc_count": 29,
+            "property_type_id_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 1,
+                    "doc_count": 24
+                }, {
+                    "key": 35,
+                    "doc_count": 3
+                }, {
+                    "key": 2,
+                    "doc_count": 2
+                }]
+            }
+        },
+        "has_gym_aggs": {
+            "doc_count": 29,
+            "has_gym_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": "T",
+                    "doc_count": 18
+                }, {
+                    "key": "F",
+                    "doc_count": 11
+                }]
+            }
+        },
+        "power_backup_type_id_aggs": {
+            "doc_count": 29,
+            "power_backup_type_id_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 3,
+                    "doc_count": 19
+                }, {
+                    "key": 1,
+                    "doc_count": 5
+                }, {
+                    "key": 2,
+                    "doc_count": 5
+                }]
+            }
+        },
+        "furnish_type_id_aggs": {
+            "doc_count": 29,
+            "furnish_type_id_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+
+                ]
+            }
+        },
+        "apartment_type_id_aggs": {
+            "doc_count": 29,
+            "apartment_type_id_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 3,
+                    "doc_count": 16
+                }, {
+                    "key": 4,
+                    "doc_count": 8
+                }, {
+                    "key": 5,
+                    "doc_count": 2
+                }, {
+                    "key": 44,
+                    "doc_count": 2
+                }, {
+                    "key": 8,
+                    "doc_count": 1
+                }]
+            }
+        },
+        "bathroom_count_aggs": {
+            "doc_count": 29,
+            "bathroom_count_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 2,
+                    "doc_count": 18
+                }, {
+                    "key": 1,
+                    "doc_count": 4
+                }, {
+                    "key": 3,
+                    "doc_count": 4
+                }, {
+                    "key": 4,
+                    "doc_count": 3
+                }]
+            }
+        },
+        "has_swimming_pool_aggs": {
+            "doc_count": 29,
+            "has_swimming_pool_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": "F",
+                    "doc_count": 15
+                }, {
+                    "key": "T",
+                    "doc_count": 14
+                }]
+            }
+        },
+        "owner_type_id_aggs": {
+            "doc_count": 29,
+            "owner_type_id_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 1,
+                    "doc_count": 19
+                }, {
+                    "key": 2,
+                    "doc_count": 10
+                }]
+            }
+        },
+        "number_of_lifts_aggs": {
+            "doc_count": 29,
+            "number_of_lifts_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": 1,
+                    "doc_count": 20
+                }, {
+                    "key": 0,
+                    "doc_count": 6
+                }, {
+                    "key": 2,
+                    "doc_count": 3
+                }]
+            }
+        },
+        "has_gas_pipeline_aggs": {
+            "doc_count": 29,
+            "has_gas_pipeline_aggs": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [{
+                    "key": "F",
+                    "doc_count": 28
+                }, {
+                    "key": "T",
+                    "doc_count": 1
+                }]
+            }
+        }
+    }
+}

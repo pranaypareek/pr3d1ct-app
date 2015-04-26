@@ -31,7 +31,7 @@ function Search(req, res) {
         var nearbyQuery = {
             location: [latitude, longitude],
             types: types,
-            radius: 1000
+            radius: 5000
         };
         console.log('nearbyQuery', nearbyQuery);
         googlePlaces.nearbySearch(nearbyQuery, function(err, data) {

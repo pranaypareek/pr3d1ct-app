@@ -46,6 +46,8 @@
         <div class="panel panel-default">
             <div>
                 <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+                    <ui-gmap-markers models="listings" coords="'self'" icon="'icon'" idKey="'idKey'">
+                    </ui-gmap-markers>
                     <ui-gmap-markers models="placesGeometryList" coords="'self'" icon="'icon'" idKey="'idKey'">
                     </ui-gmap-markers>
                 </ui-gmap-google-map>

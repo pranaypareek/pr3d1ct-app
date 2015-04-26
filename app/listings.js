@@ -20,12 +20,12 @@ function listings(req, res) {
     JSONData.hits.hits.forEach(function (hit) {
       var location = {
         idKey: hit._id,
-        
-        latitude: hit.latitude,
-        longitude: hit.longitude
+        icon: 'https://raw.githubusercontent.com/pranaypareek/pr3d1ct-app/master/public/static/images/1430022100_home-16.png',
+        latitude: hit._source.latitude,
+        longitude: hit._source.longitude
       };
       locations.push(location);
-      res.send(200, locations);
     });
+    res.send(200, locations);
   });
 }
