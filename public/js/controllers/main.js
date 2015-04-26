@@ -21,6 +21,38 @@ angular.module('pr3d1ctController', [])
               $scope.listings = listings;
             });
         });
+    $scope.predict = function(types) {
+      var count = 0;
+      var bestChoice = [];
+      types.forEach(function (type) {
+        Predictors.predict($scope.listings, type) 
+        .success(function (nearestObjectForEachLocationByType){
+          bestChoice.push(nearestObjectForEachLocationByType);
+          count ++;
+          if(count === types.length) {
+            var i = 0;
+            var j = 0;
+            var sum = 0;
+            var sumArray = [];
+            for (j=0; j < $scope.listings.length; j++){
+              for (i=0; i < bestChoice.length; i++) {
+                sum = sum + bestChoice[i][j].shortestDistance;
+              }
+              sumArray.push(sum);
+            }
+            var least = sumArray[0];
+            var leastIndex = 0;
+            for (i=1; i < sumArray.length; i++) {
+              if (sumArray[i] < least) {
+                least = sumArray[i];
+                leastIndex = i;
+              }   
+            }
+            $scope.bestChoice = $scope.listings[leastIndex];
+          }
+        });
+      });
+    },
     $scope.searchMap = function() {
       Predictors.search()
         .success(function (data) {

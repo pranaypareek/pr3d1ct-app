@@ -2,6 +2,7 @@
 var search = require('./search.js');
 var listings = require('./listings.js');
 var locations = require('./locations.js');
+var predict = require('./predict.js');
 
 module.exports = function(app) {
 
@@ -10,6 +11,8 @@ module.exports = function(app) {
     app.get('/listings', listings);
 
     app.get('/locations', locations);
+
+    app.get('/predict', predict);
 
     app.get('*', function(req, res) {
         res.sendfile('./public/index.html');

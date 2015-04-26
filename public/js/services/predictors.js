@@ -13,5 +13,8 @@ angular.module('pr3d1ctService', [])
         listing: function() {
             return $http.get('/listings?location=koramangala');
         },
-    }
+        predict: function (locations, type) {
+        	return $http.get('/predict?locations='+locations+'&field='+type);
+        },
+    };
 }]);
