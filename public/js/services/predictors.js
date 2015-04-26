@@ -4,8 +4,8 @@ angular.module('pr3d1ctService', [])
 // each function returns a promise object 
 .factory('Predictors', ['$http', function($http) {
     return {
-        search: function() {
-            return $http.get('/search?location=koramangala');
+        search: function(types) {
+            return $http.get('/search?location=koramangala&types='+types);
         },
         location: function() {
             return $http.get('/locations?location=koramangala');

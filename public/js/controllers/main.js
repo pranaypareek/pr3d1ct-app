@@ -4,7 +4,8 @@ angular.module('pr3d1ctController', [])
 .controller('mainController', ['$scope', '$http', 'Predictors', function($scope, $http, Predictors) {
     $scope.formData = {};
     $scope.loading = true;
-
+    $scope.checkBoxModel = [];
+    $scope.types = [];
     Predictors.location()
         .success(function (location) {
           $scope.map = { 
@@ -52,9 +53,22 @@ angular.module('pr3d1ctController', [])
           }
         });
       });
-    },
+    };
     $scope.searchMap = function() {
-      Predictors.search()
+      if ($scope.checkboxModel) {
+        if ($scope.checkBoxModel.gym) {
+          $scope.types.push('gym');
+        } else if ($scope.checkboxModel.restaurant) {
+          $scope.types.push('restaurant');
+        } else if ($scope.checkboxModel.hospital) {
+          $scope.types.push('hospital');
+        } else if ($scope.checkboxModel.hindu_temple) {
+          $scope.types.push('hindu_temple');
+        } else if ($scope.checkboxModel.school) {
+          $scope.types.push('school');
+        }
+      }
+      Predictors.search($scope.types)
         .success(function (data) {
 
             $scope.placesGeometryList = [];

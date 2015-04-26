@@ -8,9 +8,18 @@ function Search(req, res) {
     var location = req.query.location + ' bangalore';
     //var amenitites = ['doctor', 'badminton'];
     var googlePlaces = new GooglePlaces(
-        'AIzaSyAQVT80NecrWP3l2H2rKwLR6SPFLbQ7r-0', 'json');
+        'AIzaSyC8HSlurW0czIqjt6qvRpp80zsTNJXYBjQ', 'json');
     var parameters;
-    var types = 'gym';
+    var mytypes = [];
+    var types = req.query.types || 'gym|hindu_temple|school|';
+    mytypes = types[0];
+    if (types.length > 1) {
+        for(var i=1; i<types.length; i++) {
+            mytypes = '|'+types[1];
+        }
+    }
+    types = mytypes;
+    console.log(types);
 
     /**
      * Place search - https://developers.google.com/places/documentation

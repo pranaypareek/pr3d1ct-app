@@ -7,14 +7,16 @@ function locations(req, res) {
     var location = req.query.location + ' bangalore';
     //var amenitites = ['doctor', 'badminton'];
     var googlePlaces = new GooglePlaces(
-        'AIzaSyAQVT80NecrWP3l2H2rKwLR6SPFLbQ7r-0', 'json');
+        'AIzaSyC8HSlurW0czIqjt6qvRpp80zsTNJXYBjQ', 'json');
     var parameters;
 
     parameters = {
         query: location
     };
+    console.log(parameters);
     googlePlaces.textSearch(parameters, function(err, response) {
         if (err) throw err;
+        console.log(response);
         var latitude = response.results[0].geometry.location.lat;
         var longitude = response.results[0].geometry.location.lng;
         var location = {
