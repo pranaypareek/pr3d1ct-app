@@ -43,6 +43,24 @@
         <div class="jumbotron text-center">
             <h1>Places</h1>
         </div>
+        <form name="myForm">
+          <label>Gym:
+            <input type="checkbox" ng-model="checkboxModel.gym">
+          </label><br/>
+          <label>restaraunt:
+            <input type="checkbox" ng-model="checkboxModel.restaurant">
+           </label><br/>
+           <label>hospital:
+            <input type="checkbox" ng-model="checkboxModel.hospital">
+           </label><br/>
+           <label>school:
+            <input type="checkbox" ng-model="checkboxModel.school">
+           </label><br/>
+           <label>:hindu_temple:
+            <input type="checkbox" ng-model="checkboxModel.hindu_temple">
+           </label><br/>
+          
+        </form>
         <div class="panel panel-default">
             <div>
                 <ui-gmap-google-map center='map.center' zoom='map.zoom'>
@@ -56,6 +74,9 @@
         <div>
             <button type="button" class="btn btn-default" ng-click="searchMap()">
                 Search!
+            </button>
+            <button type="button" class="btn btn-default" ng-click="predict(types)">
+                predict!
             </button>
         </div>
     </div>

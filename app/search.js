@@ -8,10 +8,16 @@ function Search(req, res) {
     var location = req.query.location + ' bangalore';
     //var amenitites = ['doctor', 'badminton'];
     var googlePlaces = new GooglePlaces(
-        'AIzaSyAQVT80NecrWP3l2H2rKwLR6SPFLbQ7r-0', 'json');
+        'AIzaSyC8HSlurW0czIqjt6qvRpp80zsTNJXYBjQ', 'json');
     var parameters;
-    var types = 'gym';
-
+    var types = 'hospital|restaraunt|gym|school|hindu_temple';
+    /*for(var i=0; i<types.length; i++) {
+        if(types[i] && types[i] !== 'undefined'){
+            mytypes = types[i]+'|';
+        }
+    }
+    types = mytypes;
+    console.log("=========", types)*/
     /**
      * Place search - https://developers.google.com/places/documentation
      /#PlaceSearchRequests
@@ -31,7 +37,7 @@ function Search(req, res) {
         var nearbyQuery = {
             location: [latitude, longitude],
             types: types,
-            radius: 5000
+            radius: 1000
         };
         console.log('nearbyQuery', nearbyQuery);
         googlePlaces.nearbySearch(nearbyQuery, function(err, data) {
