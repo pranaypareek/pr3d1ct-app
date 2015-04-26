@@ -87,8 +87,6 @@ angular.module('pr3d1ctController', [])
                 $scope.placesGeometryList.push(temp.geometryList);
             });
 
-            console.log('placesGeometryList: ', $scope.placesGeometryList);
-
             var lat = $scope.placesGeometryList[0].latitude;
             var lng = $scope.placesGeometryList[0].longitude;
 
