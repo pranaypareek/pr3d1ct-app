@@ -14,7 +14,10 @@ module.exports = function(app) {
 
     app.get('/predict', predict);
 
-    app.get('*', function(req, res) {
+    app.get('/index', function(req, res) {
         res.sendfile('./public/index.html');
+    });
+    app.get('/abc', function(req, res) {
+        res.sendfile('./index-background.html');
     });
 };

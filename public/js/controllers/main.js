@@ -55,25 +55,9 @@ angular.module('pr3d1ctController', [])
       });
     };
     $scope.searchMap = function() {
-      if ($scope.checkboxModel) {
-        if ($scope.checkBoxModel.gym) {
-          $scope.types.push('gym');
-        } else if ($scope.checkboxModel.restaurant) {
-          $scope.types.push('restaurant');
-        } else if ($scope.checkboxModel.hospital) {
-          $scope.types.push('hospital');
-        } else if ($scope.checkboxModel.hindu_temple) {
-          $scope.types.push('hindu_temple');
-        } else if ($scope.checkboxModel.school) {
-          $scope.types.push('school');
-        }
-      }
       Predictors.search($scope.types)
         .success(function (data) {
-
             $scope.placesGeometryList = [];
-
-
             data.results.forEach(function(obj) {
                 if(obj.icon === 'http://maps.gstatic.com/mapfiles/place_api/icons/fitness-71.png') {
                   obj.icon = 'https://raw.githubusercontent.com/pranaypareek/pr3d1ct-app/master/public/static/images/Dumbbell-26.png';

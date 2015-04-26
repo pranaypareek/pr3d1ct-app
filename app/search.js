@@ -10,17 +10,14 @@ function Search(req, res) {
     var googlePlaces = new GooglePlaces(
         'AIzaSyC8HSlurW0czIqjt6qvRpp80zsTNJXYBjQ', 'json');
     var parameters;
-    var mytypes = [];
-    var types = req.query.types || 'gym|hindu_temple|school|';
-    mytypes = types[0];
-    if (types.length > 1) {
-        for(var i=1; i<types.length; i++) {
-            mytypes = '|'+types[1];
+    var types = 'hospital|restaraunt|gym|school|hindu_temple';
+    /*for(var i=0; i<types.length; i++) {
+        if(types[i] && types[i] !== 'undefined'){
+            mytypes = types[i]+'|';
         }
     }
     types = mytypes;
-    console.log(types);
-
+    console.log("=========", types)*/
     /**
      * Place search - https://developers.google.com/places/documentation
      /#PlaceSearchRequests
@@ -40,7 +37,7 @@ function Search(req, res) {
         var nearbyQuery = {
             location: [latitude, longitude],
             types: types,
-            radius: 5000
+            radius: 1000
         };
         console.log('nearbyQuery', nearbyQuery);
         googlePlaces.nearbySearch(nearbyQuery, function(err, data) {
